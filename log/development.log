@@ -9182,3 +9182,1182 @@ Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6e
 
 
 Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for ::1 at 2016-04-02 18:53:22 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 12:59:31 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (305.4ms)
+Completed 200 OK in 404ms (Views: 394.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-aca082241e2a525342c62c17194af8473701f3dc15f2e50e2f03ede433fd7301.css?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/bootstrap.min.self-24a9bf4ff4e4b1e2c8dbdc54166f415004be85789fcd7bac2ba04a382176f7a1.css?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/freelancer.self-0db989552548a4d35fe33dc5bcf003d81ac4efdd6d45a138a5df53f12c596e74.css?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/application.self-e616677913d890ce9768c71c27d15c708c6d8ae03d450965d78d2e5790477338.css?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/cabin-a9c98d4f3eb15b9fee113423d9210c03557d4e7c55d258fa14cef91aa0e2539b.png" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/cake-cb93eb47ec12e5bac9e7f7eec458663837b328dcd0988771d2b3ef993a24b263.png" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/circus-24c01c49032a521bf8fec9519c1f76369f60e803cb024b806f3dea5b194d34c6.png" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/game-db26a6e9308b5bb21f4b2ebf9959f0b5bfe2dbffcebf4c153409983d253a0e42.png" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6edf6dfa85c6.png" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for 127.0.0.1 at 2016-04-08 12:59:32 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 12:59:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 520ms (Views: 519.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-aca082241e2a525342c62c17194af8473701f3dc15f2e50e2f03ede433fd7301.css?body=1" for 127.0.0.1 at 2016-04-08 12:59:53 -0300
+
+
+Started GET "/assets/freelancer.self-0db989552548a4d35fe33dc5bcf003d81ac4efdd6d45a138a5df53f12c596e74.css?body=1" for 127.0.0.1 at 2016-04-08 12:59:53 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/application.self-e616677913d890ce9768c71c27d15c708c6d8ae03d450965d78d2e5790477338.css?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/cabin-a9c98d4f3eb15b9fee113423d9210c03557d4e7c55d258fa14cef91aa0e2539b.png" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/cake-cb93eb47ec12e5bac9e7f7eec458663837b328dcd0988771d2b3ef993a24b263.png" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/circus-24c01c49032a521bf8fec9519c1f76369f60e803cb024b806f3dea5b194d34c6.png" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/game-db26a6e9308b5bb21f4b2ebf9959f0b5bfe2dbffcebf4c153409983d253a0e42.png" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6edf6dfa85c6.png" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for 127.0.0.1 at 2016-04-08 12:59:54 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 56ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-aca082241e2a525342c62c17194af8473701f3dc15f2e50e2f03ede433fd7301.css?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/freelancer.self-0db989552548a4d35fe33dc5bcf003d81ac4efdd6d45a138a5df53f12c596e74.css?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/application.self-e616677913d890ce9768c71c27d15c708c6d8ae03d450965d78d2e5790477338.css?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/cabin-a9c98d4f3eb15b9fee113423d9210c03557d4e7c55d258fa14cef91aa0e2539b.png" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/cake-cb93eb47ec12e5bac9e7f7eec458663837b328dcd0988771d2b3ef993a24b263.png" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/circus-24c01c49032a521bf8fec9519c1f76369f60e803cb024b806f3dea5b194d34c6.png" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/game-db26a6e9308b5bb21f4b2ebf9959f0b5bfe2dbffcebf4c153409983d253a0e42.png" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6edf6dfa85c6.png" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for 127.0.0.1 at 2016-04-08 13:00:28 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 13:01:39 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (720.1ms)
+Completed 200 OK in 812ms (Views: 802.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/freelancer.self-d9fdfba9e5bf3cf55fc1de18f1c4111fbc364dd20f7deaad58e80ca4e73053e3.css?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/application.self-e616677913d890ce9768c71c27d15c708c6d8ae03d450965d78d2e5790477338.css?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/cabin-a9c98d4f3eb15b9fee113423d9210c03557d4e7c55d258fa14cef91aa0e2539b.png" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/cake-cb93eb47ec12e5bac9e7f7eec458663837b328dcd0988771d2b3ef993a24b263.png" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/circus-24c01c49032a521bf8fec9519c1f76369f60e803cb024b806f3dea5b194d34c6.png" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/game-db26a6e9308b5bb21f4b2ebf9959f0b5bfe2dbffcebf4c153409983d253a0e42.png" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6edf6dfa85c6.png" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for 127.0.0.1 at 2016-04-08 13:01:41 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 13:04:07 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 568ms (Views: 566.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/application.self-298d28a5733fd90a40ad08deef432a28c4123f5fa20e58b9dc44c065ca9a96c8.css?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/freelancer.self-d9fdfba9e5bf3cf55fc1de18f1c4111fbc364dd20f7deaad58e80ca4e73053e3.css?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/cabin-a9c98d4f3eb15b9fee113423d9210c03557d4e7c55d258fa14cef91aa0e2539b.png" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/cake-cb93eb47ec12e5bac9e7f7eec458663837b328dcd0988771d2b3ef993a24b263.png" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/circus-24c01c49032a521bf8fec9519c1f76369f60e803cb024b806f3dea5b194d34c6.png" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/game-db26a6e9308b5bb21f4b2ebf9959f0b5bfe2dbffcebf4c153409983d253a0e42.png" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6edf6dfa85c6.png" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for 127.0.0.1 at 2016-04-08 13:04:08 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 13:05:01 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/freelancer.self-d9fdfba9e5bf3cf55fc1de18f1c4111fbc364dd20f7deaad58e80ca4e73053e3.css?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/application.self-298d28a5733fd90a40ad08deef432a28c4123f5fa20e58b9dc44c065ca9a96c8.css?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/cabin-a9c98d4f3eb15b9fee113423d9210c03557d4e7c55d258fa14cef91aa0e2539b.png" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/cake-cb93eb47ec12e5bac9e7f7eec458663837b328dcd0988771d2b3ef993a24b263.png" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/circus-24c01c49032a521bf8fec9519c1f76369f60e803cb024b806f3dea5b194d34c6.png" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/game-db26a6e9308b5bb21f4b2ebf9959f0b5bfe2dbffcebf4c153409983d253a0e42.png" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6edf6dfa85c6.png" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for 127.0.0.1 at 2016-04-08 13:05:02 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 13:05:39 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 383ms (Views: 382.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/freelancer.self-b2c7a0f4e2c1856014f130d51c922333c58b7c99a32023e302cbcd8e195f6e90.css?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/application.self-298d28a5733fd90a40ad08deef432a28c4123f5fa20e58b9dc44c065ca9a96c8.css?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/cabin-a9c98d4f3eb15b9fee113423d9210c03557d4e7c55d258fa14cef91aa0e2539b.png" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/cake-cb93eb47ec12e5bac9e7f7eec458663837b328dcd0988771d2b3ef993a24b263.png" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/circus-24c01c49032a521bf8fec9519c1f76369f60e803cb024b806f3dea5b194d34c6.png" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/game-db26a6e9308b5bb21f4b2ebf9959f0b5bfe2dbffcebf4c153409983d253a0e42.png" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6edf6dfa85c6.png" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for 127.0.0.1 at 2016-04-08 13:05:40 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 13:06:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 518ms (Views: 517.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/freelancer.self-f575c1f8082b31bdd8f0768c72e62a4df56eb8c7e49a873d81b330a46c267081.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/application.self-298d28a5733fd90a40ad08deef432a28c4123f5fa20e58b9dc44c065ca9a96c8.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/cabin-a9c98d4f3eb15b9fee113423d9210c03557d4e7c55d258fa14cef91aa0e2539b.png" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/cake-cb93eb47ec12e5bac9e7f7eec458663837b328dcd0988771d2b3ef993a24b263.png" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/circus-24c01c49032a521bf8fec9519c1f76369f60e803cb024b806f3dea5b194d34c6.png" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/game-db26a6e9308b5bb21f4b2ebf9959f0b5bfe2dbffcebf4c153409983d253a0e42.png" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6edf6dfa85c6.png" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for 127.0.0.1 at 2016-04-08 13:06:06 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/freelancer.self-f575c1f8082b31bdd8f0768c72e62a4df56eb8c7e49a873d81b330a46c267081.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/application.self-298d28a5733fd90a40ad08deef432a28c4123f5fa20e58b9dc44c065ca9a96c8.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/cabin-a9c98d4f3eb15b9fee113423d9210c03557d4e7c55d258fa14cef91aa0e2539b.png" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/cake-cb93eb47ec12e5bac9e7f7eec458663837b328dcd0988771d2b3ef993a24b263.png" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/circus-24c01c49032a521bf8fec9519c1f76369f60e803cb024b806f3dea5b194d34c6.png" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/game-db26a6e9308b5bb21f4b2ebf9959f0b5bfe2dbffcebf4c153409983d253a0e42.png" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6edf6dfa85c6.png" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for 127.0.0.1 at 2016-04-08 13:06:20 -0300
+
+
+Started GET "/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for 127.0.0.1 at 2016-04-08 13:06:21 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/freelancer.self-f575c1f8082b31bdd8f0768c72e62a4df56eb8c7e49a873d81b330a46c267081.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/application.self-298d28a5733fd90a40ad08deef432a28c4123f5fa20e58b9dc44c065ca9a96c8.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/cabin-a9c98d4f3eb15b9fee113423d9210c03557d4e7c55d258fa14cef91aa0e2539b.png" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/cake-cb93eb47ec12e5bac9e7f7eec458663837b328dcd0988771d2b3ef993a24b263.png" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/circus-24c01c49032a521bf8fec9519c1f76369f60e803cb024b806f3dea5b194d34c6.png" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/game-db26a6e9308b5bb21f4b2ebf9959f0b5bfe2dbffcebf4c153409983d253a0e42.png" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6edf6dfa85c6.png" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for 127.0.0.1 at 2016-04-08 13:06:31 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 13:06:56 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 448ms (Views: 447.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:56 -0300
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:56 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:56 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:56 -0300
+
+
+Started GET "/assets/application.self-298d28a5733fd90a40ad08deef432a28c4123f5fa20e58b9dc44c065ca9a96c8.css?body=1" for 127.0.0.1 at 2016-04-08 13:06:56 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:56 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:56 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:56 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/cabin-a9c98d4f3eb15b9fee113423d9210c03557d4e7c55d258fa14cef91aa0e2539b.png" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/cake-cb93eb47ec12e5bac9e7f7eec458663837b328dcd0988771d2b3ef993a24b263.png" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/circus-24c01c49032a521bf8fec9519c1f76369f60e803cb024b806f3dea5b194d34c6.png" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/game-db26a6e9308b5bb21f4b2ebf9959f0b5bfe2dbffcebf4c153409983d253a0e42.png" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6edf6dfa85c6.png" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for 127.0.0.1 at 2016-04-08 13:06:57 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 13:09:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 66ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-08 13:09:53 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-08 13:09:53 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-08 13:09:53 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-08 13:09:53 -0300
+
+
+Started GET "/assets/application.self-298d28a5733fd90a40ad08deef432a28c4123f5fa20e58b9dc44c065ca9a96c8.css?body=1" for 127.0.0.1 at 2016-04-08 13:09:53 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-08 13:09:53 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-08 13:09:53 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-08 13:09:53 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/cabin-a9c98d4f3eb15b9fee113423d9210c03557d4e7c55d258fa14cef91aa0e2539b.png" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/cake-cb93eb47ec12e5bac9e7f7eec458663837b328dcd0988771d2b3ef993a24b263.png" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/circus-24c01c49032a521bf8fec9519c1f76369f60e803cb024b806f3dea5b194d34c6.png" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/game-db26a6e9308b5bb21f4b2ebf9959f0b5bfe2dbffcebf4c153409983d253a0e42.png" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6edf6dfa85c6.png" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for 127.0.0.1 at 2016-04-08 13:09:54 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 91ms (Views: 90.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/application.self-298d28a5733fd90a40ad08deef432a28c4123f5fa20e58b9dc44c065ca9a96c8.css?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/cabin-a9c98d4f3eb15b9fee113423d9210c03557d4e7c55d258fa14cef91aa0e2539b.png" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/cake-cb93eb47ec12e5bac9e7f7eec458663837b328dcd0988771d2b3ef993a24b263.png" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/circus-24c01c49032a521bf8fec9519c1f76369f60e803cb024b806f3dea5b194d34c6.png" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/game-db26a6e9308b5bb21f4b2ebf9959f0b5bfe2dbffcebf4c153409983d253a0e42.png" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6edf6dfa85c6.png" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for 127.0.0.1 at 2016-04-08 13:10:27 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/application.self-298d28a5733fd90a40ad08deef432a28c4123f5fa20e58b9dc44c065ca9a96c8.css?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/cabin-a9c98d4f3eb15b9fee113423d9210c03557d4e7c55d258fa14cef91aa0e2539b.png" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/cake-cb93eb47ec12e5bac9e7f7eec458663837b328dcd0988771d2b3ef993a24b263.png" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/circus-24c01c49032a521bf8fec9519c1f76369f60e803cb024b806f3dea5b194d34c6.png" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/game-db26a6e9308b5bb21f4b2ebf9959f0b5bfe2dbffcebf4c153409983d253a0e42.png" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/safe-b982c53a51bb74c836e1b2bddf3f7e626ea2f76177eac0a80e6b6edf6dfa85c6.png" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/submarine-17fbf11087030693518d8d88d610fe6cbe02ee3bf0a0be4ea914e47249b8772f.png" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
+
+
+Started GET "/assets/fontawesome-webfont-ff82aeed6b9bb6701696c84d1b223d2e682eb78c89117a438ce6cfea8c498995.woff2?v=4.5.0" for 127.0.0.1 at 2016-04-08 13:10:44 -0300
