@@ -14219,3 +14219,160 @@ Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 13:25:01 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-18 15:07:35 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2059.5ms)
+Completed 200 OK in 2180ms (Views: 2161.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0c7966779af636eb5e1e337bf9ea499197ed0689cafea4242bb5df81cacb047c.css?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/welcome.self-2c593f0fc1c2fe4d7244cdda0a7b3399cd89c318e503d63cf44658ff681d5951.css?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/assets/fontawesome-webfont-d3ebb498192527b985939ae62cc4e5eb5c108efc1896184126b45d866868e73d.woff2?v=4.6.1" for 127.0.0.1 at 2016-04-18 15:07:38 -0300
+
+
+Started GET "/en" for 127.0.0.1 at 2016-04-18 15:07:48 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 56ms (Views: 44.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pt-BR" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/welcome.self-2c593f0fc1c2fe4d7244cdda0a7b3399cd89c318e503d63cf44658ff681d5951.css?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/application.self-0c7966779af636eb5e1e337bf9ea499197ed0689cafea4242bb5df81cacb047c.css?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-18 15:08:06 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-18 15:08:09 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pt-BR" for 127.0.0.1 at 2016-04-18 15:08:16 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.0ms)
