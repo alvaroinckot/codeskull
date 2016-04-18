@@ -20,4 +20,15 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  name: Code Skull
+  about: About
+  contribute: Contribute
+  slogan: Lean how to code!
+  register_courses: Register courses
+  learn_for_free: Learn for free
+  already_registered: Already Registered?
+  email: E-mail
+  password: Password
+  login: Login
+  logout: Logout 
+  social_networks: Around the Web
