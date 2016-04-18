@@ -11,6 +11,7 @@ pt-BR:
   login: Entrar
   logout: Sair 
   social_networks: Redes sociais
+  login_with: "Entrar com %{social_netowork}"
   activerecord:
     errors:
       messages:

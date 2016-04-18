@@ -14376,3 +14376,931 @@ Processing by WelcomeController#index as HTML
   Parameters: {"locale"=>"pt-BR"}
   Rendered welcome/index.html.erb within layouts/application (2.3ms)
 Completed 200 OK in 45ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-18 15:15:32 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (475.4ms)
+Completed 200 OK in 642ms (Views: 622.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2016-04-18 15:15:39 -0300
+Processing by DashboardController#index as HTML
+  Rendered dashboard/index.html within layouts/application (0.7ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2016-04-18 15:16:02 -0300
+Processing by DashboardController#index as HTML
+  Rendered dashboard/index.html within layouts/application (0.2ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-18 15:17:00 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 65ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:00 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:00 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:00 -0300
+
+
+Started GET "/assets/welcome.self-2c593f0fc1c2fe4d7244cdda0a7b3399cd89c318e503d63cf44658ff681d5951.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:00 -0300
+
+
+Started GET "/assets/application.self-0c7966779af636eb5e1e337bf9ea499197ed0689cafea4242bb5df81cacb047c.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:00 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:00 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:00 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:00 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:01 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:01 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:01 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:01 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:01 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:01 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:01 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:01 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:01 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:01 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:01 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-18 15:17:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/welcome.self-2c593f0fc1c2fe4d7244cdda0a7b3399cd89c318e503d63cf44658ff681d5951.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/application.self-0c7966779af636eb5e1e337bf9ea499197ed0689cafea4242bb5df81cacb047c.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:06 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-18 15:17:13 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:13 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:13 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:13 -0300
+
+
+Started GET "/assets/welcome.self-2c593f0fc1c2fe4d7244cdda0a7b3399cd89c318e503d63cf44658ff681d5951.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:13 -0300
+
+
+Started GET "/assets/application.self-0c7966779af636eb5e1e337bf9ea499197ed0689cafea4242bb5df81cacb047c.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:13 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:13 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:14 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:14 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:14 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:14 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:14 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:14 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:14 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:14 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:14 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:14 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:14 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:14 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:14 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 51ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/welcome.self-2c593f0fc1c2fe4d7244cdda0a7b3399cd89c318e503d63cf44658ff681d5951.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/application.self-0c7966779af636eb5e1e337bf9ea499197ed0689cafea4242bb5df81cacb047c.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:18 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 71ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/welcome.self-2c593f0fc1c2fe4d7244cdda0a7b3399cd89c318e503d63cf44658ff681d5951.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/application.self-0c7966779af636eb5e1e337bf9ea499197ed0689cafea4242bb5df81cacb047c.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:27 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-18 15:17:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 54ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/welcome.self-2c593f0fc1c2fe4d7244cdda0a7b3399cd89c318e503d63cf44658ff681d5951.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/application.self-0c7966779af636eb5e1e337bf9ea499197ed0689cafea4242bb5df81cacb047c.css?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:17:44 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-18 15:20:54 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (18.3ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 0.0ms)
+
+NoMethodError - undefined method `has_key?' for "Facebook":String:
+  actionview (4.2.6) lib/action_view/helpers/translation_helper.rb:40:in `translate'
+  app/views/welcome/index.html.erb:76:in `_app_views_welcome_index_html_erb___2963348089344275216_62536540'
+  actionview (4.2.6) lib/action_view/template.rb:145:in `block in render'
+  activesupport (4.2.6) lib/active_support/notifications.rb:166:in `instrument'
+  actionview (4.2.6) lib/action_view/template.rb:333:in `instrument'
+  actionview (4.2.6) lib/action_view/template.rb:143:in `render'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:54:in `block (2 levels) in render_template'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:39:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionview (4.2.6) lib/action_view/renderer/abstract_renderer.rb:39:in `instrument'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:53:in `block in render_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:61:in `render_with_layout'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:52:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/template_renderer.rb:14:in `render'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:46:in `render_template'
+  actionview (4.2.6) lib/action_view/renderer/renderer.rb:27:in `render'
+  actionview (4.2.6) lib/action_view/rendering.rb:100:in `_render_template'
+  actionpack (4.2.6) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.2.6) lib/action_view/rendering.rb:83:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.2.6) lib/action_controller/metal/renderers.rb:37:in `render_to_body'
+  actionpack (4.2.6) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block (2 levels) in render'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  /home/alvaro/.rvm/rubies/ruby-2.3.0/lib/ruby/2.3.0/benchmark.rb:308:in `realtime'
+  activesupport (4.2.6) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:44:in `block in render'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:87:in `cleanup_view_runtime'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:43:in `render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.2.6) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:198:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:117:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:555:in `block (2 levels) in compile'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:505:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:84:in `protected_app_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:79:in `better_errors_call'
+  better_errors (2.1.1) lib/better_errors/middleware.rb:57:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  unicorn (5.1.0) lib/unicorn/http_server.rb:562:in `process_client'
+  unicorn (5.1.0) lib/unicorn/http_server.rb:658:in `worker_loop'
+  unicorn (5.1.0) lib/unicorn/http_server.rb:508:in `spawn_missing_workers'
+  unicorn (5.1.0) lib/unicorn/http_server.rb:132:in `start'
+  unicorn-rails (2.2.0) lib/unicorn_rails.rb:33:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.6) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.6) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.6) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `<top (required)>'
+  spring (1.7.1) lib/spring/client/rails.rb:28:in `call'
+  spring (1.7.1) lib/spring/client/command.rb:7:in `call'
+  spring (1.7.1) lib/spring/client.rb:30:in `run'
+  spring (1.7.1) bin/spring:49:in `<top (required)>'
+  spring (1.7.1) lib/spring/binstub.rb:11:in `<top (required)>'
+  bin/spring:13:in `<top (required)>'
+  bin/rails:3:in `<main>'
+
+
+
+Started POST "/__better_errors/d31d43d7eeca4bad/variables" for 127.0.0.1 at 2016-04-18 15:20:54 -0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/welcome.self-2c593f0fc1c2fe4d7244cdda0a7b3399cd89c318e503d63cf44658ff681d5951.css?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/application.self-0c7966779af636eb5e1e337bf9ea499197ed0689cafea4242bb5df81cacb047c.css?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:14 -0300
+
+
+Started GET "/en" for 127.0.0.1 at 2016-04-18 15:21:19 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/welcome.self-2c593f0fc1c2fe4d7244cdda0a7b3399cd89c318e503d63cf44658ff681d5951.css?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/application.self-0c7966779af636eb5e1e337bf9ea499197ed0689cafea4242bb5df81cacb047c.css?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:21:48 -0300
+
+
+Started GET "/en" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 73ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/welcome.self-2c593f0fc1c2fe4d7244cdda0a7b3399cd89c318e503d63cf44658ff681d5951.css?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/application.self-0c7966779af636eb5e1e337bf9ea499197ed0689cafea4242bb5df81cacb047c.css?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:22:13 -0300
+
+
+Started GET "/en" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 63ms (Views: 61.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/welcome.self-2c593f0fc1c2fe4d7244cdda0a7b3399cd89c318e503d63cf44658ff681d5951.css?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/application.self-0c7966779af636eb5e1e337bf9ea499197ed0689cafea4242bb5df81cacb047c.css?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:23:06 -0300
+
+
+Started GET "/en/dashboard" for 127.0.0.1 at 2016-04-18 15:23:12 -0300
+Processing by DashboardController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered dashboard/index.html within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/en/dashboard" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+Processing by DashboardController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered dashboard/index.html within layouts/dashboard (0.0ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/welcome.self-2c593f0fc1c2fe4d7244cdda0a7b3399cd89c318e503d63cf44658ff681d5951.css?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/application.self-0c7966779af636eb5e1e337bf9ea499197ed0689cafea4242bb5df81cacb047c.css?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:28 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:29 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:29 -0300
+
+
+Started GET "/en/dashboard" for 127.0.0.1 at 2016-04-18 15:24:39 -0300
+Processing by DashboardController#index as HTML
+  Parameters: {"locale"=>"en"}
+  Rendered dashboard/index.html within layouts/dashboard (2.0ms)
+Completed 200 OK in 386ms (Views: 364.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.self-5069e349a1998900a39026628335da8b42130135509c8659c95b9f04a787e94a.css?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/freelancer.self-a8139d30b8ac8b372e1d2e24d798af5c7f351cc335a42dd8755cd5d417772db9.css?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/scaffolds.self-6d9141843b4ab8e541e3a3058ad4d537bd6c7557b00158754ea98ad56ac2e1f7.css?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/welcome.self-2c593f0fc1c2fe4d7244cdda0a7b3399cd89c318e503d63cf44658ff681d5951.css?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/application.self-0c7966779af636eb5e1e337bf9ea499197ed0689cafea4242bb5df81cacb047c.css?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300

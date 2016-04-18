@@ -20,7 +20,7 @@
                     <a href="/about"><%= t('about') %></a>
                 </li>
                 <li>
-                    <a href="/contribute"><%= t('contribute') %></a>
+                    <a href="https://github.com/alvarocantador/codeskull" target="_blank"><%= t('contribute') %></a>
                 </li>
             </ul>
         </div>
@@ -71,6 +71,9 @@
                     </div>
                     <div class="form-group">
                         <button type="submit" class="form-control btn btn-default"><%= t('login') %></button>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="form-control btn btn-default"><i class="fa fa-fw fa-facebook"></i><%= t('login_with', social_netowork: 'Facebook') %></button>
                     </div>
                 </form>
             </div>

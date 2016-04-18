@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  resources :controllers
 
   scope "(:locale)", locale: /pt-BR|en/ do
     root 'welcome#index'
+    get '/dashboard' => 'dashboard#index' 
   end
 
 end

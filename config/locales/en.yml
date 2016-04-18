@@ -32,3 +32,4 @@ en:
   login: Login
   logout: Logout 
   social_networks: Around the Web
+  login_with: "Login with %{social_netowork}"
