@@ -22,6 +22,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'unicorn-rails'
 
+gem 'foreman'
+
 group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'
