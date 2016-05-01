@@ -1,0 +1,39 @@
+<section>
+  <div class="container">
+    <div class="row">
+
+      <h3><%= t('devise.registrations.signup') %></h3>
+
+      <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <%= devise_error_messages! %>
+
+        <div class="form-group">
+          <%= f.text_field :fullname, autofocus: true, class: "form-control", placeholder: t('devise.registrations.fullname'), required: true  %>
+        </div>
+
+        <div class="form-group">
+          <%= f.email_field :email, autofocus: true, class: "form-control", placeholder: t('email'), required: true  %>
+        </div>
+
+        <div class="form-group">
+          <%= f.password_field :password, autocomplete: "off", class: "form-control", placeholder: t('password'), required: true  %>
+        </div>
+
+        <div class="form-group">
+          <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control", placeholder: t('devise.registrations.confimation_password') , required: true  %>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="form-control btn btn-default"><%= t('devise.registrations.signup') %></button>
+        </div>
+
+        <div class="form-group">
+          <%= render 'layouts/messages' %>
+        </div>
+
+      <% end %>
+    </div>
+
+  </div>
+</section>
+

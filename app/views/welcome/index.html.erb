@@ -1,41 +1,8 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#page-top"><%= t('name') %></a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li>
-                    <a href="/about"><%= t('about') %></a>
-                </li>
-                <li>
-                    <a href="https://github.com/alvarocantador/codeskull" target="_blank"><%= t('contribute') %></a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-</nav>
-
 <!-- Header -->
 <header>
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <!--<img class="img-responsive" src="img/profile.png" alt="">-->
-                <!--<%= image_tag("skull.png") %>-->
                 <div class="intro-text">
                     <span class="name"><%= t('name') %></span>
                     <hr/>
@@ -55,27 +22,13 @@
         </div>
         <div class="row">
             <div class="col-sm-4 portfolio-item text-center vcenter">
-               <h2><%= t('register_courses') %></h2>
+               <a href="<%= new_user_registration_url %>"><h2><%= t('register_courses') %></h2></a>
             </div>
             <div class="col-sm-4 portfolio-item text-center vcenter">
-               <h2><%= t('learn_for_free') %></h2>
+               <a href="<%= new_user_registration_url %>"><h2><%= t('learn_for_free') %></h2></a>
             </div>
             <div class="col-sm-4 portfolio-item text-center">
-                <h4><%= t('already_registered') %></h4>
-                <form role="form">
-                    <div class="form-group">
-                        <input type="text" class="form-control"  placeholder="<%= t('email') %>"></input>
-                    </div>
-                    <div class="form-group">
-                        <input type="password" placeholder="<%= t('password') %>" class="form-control"></input>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="form-control btn btn-default"><%= t('login') %></button>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="form-control btn btn-default"><i class="fa fa-fw fa-facebook"></i><%= t('login_with', social_netowork: 'Facebook') %></button>
-                    </div>
-                </form>
+                <%= render 'users/sessions/new' %>
             </div>
         </div>
     </div>

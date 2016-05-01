@@ -7,3 +7,37 @@
     padding-bottom: 10%;
     cursor: default;
 }
+
+
+#page-top > section > div a {
+	color: black !important;
+
+    &:focus {
+    	color: black !important;
+    }
+    &:visited {
+        color: black !important;
+    }
+    &:hover {
+        color: black !important;  
+    }
+    &:active {
+        color: black !important;
+    }
+}
+
+
+
+#page-top > section > div form a {
+
+    color: white !important;
+    background-color: #3b5998;
+
+    &:visited {
+        color: white !important;
+    }
+    &:hover {
+        color: white !important;  
+    }
+
+}

@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
 
   scope "(:locale)", locale: /pt-BR|en/ do
-    root 'welcome#index'
-    get '/dashboard' => 'dashboard#index' 
+    root 'dashboard#index'
+    get '/login' => 'welcome#index' , as: 'root_login'
+    devise_for :users
   end
 
 end

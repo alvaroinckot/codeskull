@@ -12,12 +12,21 @@
  *
  */
 
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+
 @import "font-awesome";
 @import "bootstrap";
 @import "freelancer";
 @import "scaffolds";
+@import "welcome";
+@import "users";
 
 
 #bs-example-navbar-collapse-1 > ul {
 	font-size: 1.15em;
+}
+
+div:empty {
+   display: none;
 }

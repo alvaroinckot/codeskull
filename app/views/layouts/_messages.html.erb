@@ -1,0 +1,7 @@
+<% if flash.any? %>
+	<div class="alert alert-danger">
+		<% flash.each do |key, msg| %>
+		  	<%= content_tag(:span, msg) unless msg.empty? %>
+		<% end %>
+	</div>
+<% end %>
