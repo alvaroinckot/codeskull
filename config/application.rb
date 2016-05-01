@@ -13,6 +13,12 @@ module Codeskull
     config.i18n.default_locale = 'pt-BR'
 
     config.active_record.raise_in_transactional_callbacks = true
+
+    config.generators do |generator|
+        generator.test_framework :rspec, fixture: true
+        generator.fixture_replacement :factory_girl, dir: "spec/factories"
+    end
+
     
   end
 end
