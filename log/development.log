@@ -15304,3 +15304,127 @@ Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-04-18 15:24:40 -0300
+
+
+Started GET "/pt-BR/login" for ::1 at 2016-05-01 21:07:43 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered layouts/_messages.html.erb (0.8ms)
+  Rendered users/sessions/_new.html.erb (40.1ms)
+  Rendered welcome/index.html.erb within layouts/application (45.3ms)
+  Rendered layouts/_navbar.html.erb (0.8ms)
+Completed 200 OK in 5340ms (Views: 5174.7ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/jquery.self-aedf0b4f9535e7b1d01d6a9ad81e6ecdb5b9a82acf17f3798645b7dbca2d86a1.js?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/bootstrap.self-d0e973a52d36a01036265aeefaf2d1ae3499d2cb231a9be3bd846432daf231de.js?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/application.self-aad4af45d1e5ae2418b058f6dc9809c67bb3c9c0d29f347beb1d8054324e9864.css?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/contact_me.self-48c5202d42624ea026f3276d3f603938c8edeebb9559ad60b62b5ad8c5b375d0.js?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/controllers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/jqBootstrapValidation.self-632c1f8c044860398bac3ea5436ee10a0f16c9f9b122fc79d39e431d2badfb74.js?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.self-2f56b42e64e4cd1aeca79d75fab98d1e72c4ee686ded129c7b6bd100065c0c84.js?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/cbpAnimatedHeader.min.self-07faf472c0fb1c56f8ba76d3922b5db3ae53e5444635b0a006e280f0f3677e35.js?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/classie.self-6977e130d2dc21c0fe794d91a94b6a69eaa2d5bc630e4e39e90844c99c4186d0.js?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/freelancer.self-508ced037964aafab0f0305e3b73ce8c421bcb1a4d73fcf4513bd35b96ed9bb5.js?body=1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started GET "/assets/fontawesome-webfont-d3ebb498192527b985939ae62cc4e5eb5c108efc1896184126b45d866868e73d.woff2?v=4.6.1" for ::1 at 2016-05-01 21:07:50 -0300
+
+
+Started POST "/pt-BR/users/sign_in" for ::1 at 2016-05-01 21:08:00 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EkOPoYwgPOZsoOO7KuOMjVJ+dAGkw7MJQ7QqHJV6VRhcwV8Jd6V4as8d4F1Rls9WOyzBiDQzzrdnZrgTEQOV5w==", "user"=>{"email"=>"alvaroinckot@gmail.com", "password"=>"[FILTERED]"}, "locale"=>"pt-BR"}
+  [1m[35mUser Load (1.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "alvaroinckot@gmail.com"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5  [["last_sign_in_at", "2016-05-01 23:36:05.406688"], ["current_sign_in_at", "2016-05-02 00:08:00.856528"], ["sign_in_count", 10], ["updated_at", "2016-05-02 00:08:00.859204"], ["id", 1]]
+  [1m[36m (56.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:5000/pt-BR
+Completed 302 Found in 330ms (ActiveRecord: 58.4ms)
+
+
+Started GET "/pt-BR" for ::1 at 2016-05-01 21:08:00 -0300
+Processing by DashboardController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered dashboard/index.html within layouts/dashboard (0.7ms)
+Completed 200 OK in 38ms (Views: 35.7ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/pt-BR/users/sign_out" for ::1 at 2016-05-01 21:08:02 -0300
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"BHtBYEM4B60oeVzfF6X5i8BhQ+R3IzlolhA27UKLpAVPeq8YNwPcOZ4roEE+kuPaXUNeMPoKEktneHROViPEwg==", "locale"=>"pt-BR"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:5000/pt-BR
+Completed 302 Found in 44ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/pt-BR" for ::1 at 2016-05-01 21:08:02 -0300
+Processing by DashboardController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+Redirected to http://localhost:5000/pt-BR/login
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pt-BR/login" for ::1 at 2016-05-01 21:08:02 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered users/sessions/_new.html.erb (1.7ms)
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navbar.html.erb (0.2ms)
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-05-01 21:16:32 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DashboardController#index as HTML
+Redirected to http://localhost:5000/pt-BR/login
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 302 Found in 35ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/pt-BR/login" for ::1 at 2016-05-01 21:16:33 -0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"locale"=>"pt-BR"}
+  Rendered layouts/_messages.html.erb (0.7ms)
+  Rendered users/sessions/_new.html.erb (29.3ms)
+  Rendered welcome/index.html.erb within layouts/application (35.6ms)
+  Rendered layouts/_navbar.html.erb (1.8ms)
+Completed 200 OK in 2164ms (Views: 2159.4ms | ActiveRecord: 2.8ms)
