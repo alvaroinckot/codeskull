@@ -1,0 +1,8 @@
+<section>
+    <div class="container">
+        <div class="row">
+			<h4>Olá <%= current_user.fullname %></h4>
+			<%= link_to('Logout', destroy_user_session_path, :method => :delete) %>  
+		</div>  		
+	</div>  
+</section>
