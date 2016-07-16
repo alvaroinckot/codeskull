@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160710151150) do
+ActiveRecord::Schema.define(version: 20160710225946) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,14 +19,12 @@ ActiveRecord::Schema.define(version: 20160710151150) do
   create_table "tracks", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
-    t.integer  "users_id"
-    t.integer  "owner_id"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.integer  "user_id"
   end
 
-  add_index "tracks", ["owner_id"], name: "index_tracks_on_owner_id", using: :btree
-  add_index "tracks", ["users_id"], name: "index_tracks_on_users_id", using: :btree
+  add_index "tracks", ["user_id"], name: "index_tracks_on_user_id", using: :btree
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
@@ -47,4 +45,5 @@ ActiveRecord::Schema.define(version: 20160710151150) do
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
 
+  add_foreign_key "tracks", "users"
 end

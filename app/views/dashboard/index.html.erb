@@ -1,8 +1,30 @@
+<header>
+	
+</header>
 <section>
     <div class="container">
-        <div class="row">
-			<h4>Olá <%= current_user.fullname %></h4>
-			<%= link_to('Logout', destroy_user_session_path, :method => :delete) %>  
-		</div>  		
+    	<div class="row">
+			<!--
+				<h4>Olá <%= current_user.fullname %></h4>
+				<%= link_to('Logout', destroy_user_session_path, :method => :delete) %> 
+			--> 
+			<div class="col-md-3">
+
+				<ul class="menu">
+					<li><a href="#">CADASTRAR CURSO</a></li>
+					<li><a href="#">CADASTRAR CURSO</a></li>
+					<li><a href="#">CADASTRAR CURSO</a></li>
+					<li><a href="#">CADASTRAR CURSO</a></li>
+					<li><a href="#">CADASTRAR CURSO</a></li>
+				</ul>
+
+			</div>
+
+			<div class="cold-md-9">
+		        <div class="row loader-row">
+					<div class="loader"> </div>
+				</div>
+			</div>
+		</div>
 	</div>  
 </section>

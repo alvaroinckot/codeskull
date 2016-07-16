@@ -21,6 +21,7 @@
 @import "scaffolds";
 @import "welcome";
 @import "users";
+@import "loader";
 
 
 #bs-example-navbar-collapse-1 > ul {
@@ -29,4 +30,44 @@
 
 div:empty {
    display: none;
+}
+
+.search-nav {
+	input {
+		font-size: 24px;
+    	margin: 16px;
+    	outline: none;
+    	border: none;
+    	width: 100%;
+	}
+}
+
+.navbar {
+	ul {
+		list-style-type: none;
+	}
+}
+
+.navbar-white {
+	background-color: white;
+}
+
+.loader-row {
+	margin-top: 100px;
+}
+
+.menu {
+	
+	font-size: 1.5em;
+	list-style-type: none;
+	padding: 0;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+	li {
+		margin-top: 5px;
+	}
+
+	a:hover {
+		background-color: white;
+	}
 }
