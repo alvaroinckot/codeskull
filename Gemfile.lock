@@ -1,3 +1,26 @@
+GIT
+  remote: git://github.com/elasticsearch/elasticsearch-rails.git
+  revision: 15761247f3e99654bda946a178e50b5365414b59
+  specs:
+    elasticsearch-model (0.1.9)
+      activesupport (> 3)
+      elasticsearch (> 0.4)
+      hashie
+    elasticsearch-rails (0.1.9)
+
+GIT
+  remote: git://github.com/elasticsearch/elasticsearch-ruby.git
+  revision: 5dc17f2d4215bf8690108f826250f82b3472aac0
+  specs:
+    elasticsearch (1.0.18)
+      elasticsearch-api (= 1.0.18)
+      elasticsearch-transport (= 1.0.18)
+    elasticsearch-api (1.0.18)
+      multi_json
+    elasticsearch-transport (1.0.18)
+      faraday
+      multi_json
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -89,19 +112,6 @@ GEM
       responders
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
-    elasticsearch (1.0.18)
-      elasticsearch-api (= 1.0.18)
-      elasticsearch-transport (= 1.0.18)
-    elasticsearch-api (1.0.18)
-      multi_json
-    elasticsearch-model (0.1.9)
-      activesupport (> 3)
-      elasticsearch (> 0.4)
-      hashie
-    elasticsearch-rails (0.1.9)
-    elasticsearch-transport (1.0.18)
-      faraday
-      multi_json
     erubis (2.7.0)
     execjs (2.6.0)
     factory_girl (4.7.0)
@@ -245,8 +255,9 @@ DEPENDENCIES
   cucumber-rails
   database_cleaner
   devise
-  elasticsearch-model
-  elasticsearch-rails
+  elasticsearch!
+  elasticsearch-model!
+  elasticsearch-rails!
   factory_girl
   font-awesome-rails
   foreman
