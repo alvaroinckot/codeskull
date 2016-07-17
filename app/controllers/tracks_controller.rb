@@ -6,8 +6,14 @@ class TracksController < ApplicationController
 
   def index
     render(:index, locals: {
-	  tracks: Track.search(search_params[:q]),
-	})
+	    tracks: Track.search(search_params[:q]),
+	  })
+  end
+
+  def show
+  end
+
+  def edit
   end
 
   private

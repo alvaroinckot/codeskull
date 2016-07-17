@@ -15,16 +15,9 @@ class ApplicationController < ActionController::Base
 
   protected
 
-    def authenticate_user!
-	    if user_signed_in?
-	      super
-	    else
-	      redirect_to root_login_path
-	    end
-	  end
-
     def configure_permitted_parameters
       devise_parameter_sanitizer.permit(:sign_up, keys: [:fullname])
+      devise_parameter_sanitizer.permit(:account_update, keys: [:fullname])
     end
 
 end

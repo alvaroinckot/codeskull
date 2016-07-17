@@ -11,8 +11,14 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   </head>
   <body class="devise">
-    <%= render 'layouts/navbar' %>
-    <%= yield %>
+    <%= render 'dashboard/navbar' %>
+    <section>
+      <div class="container">
+        <div class="row">
+          <%= yield %>
+        </div>
+      </div>
+    </section>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   </body>
 </html>
