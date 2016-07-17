@@ -12,6 +12,8 @@ pt-BR:
   logout: Sair 
   social_networks: Redes sociais
   login_with: "Entrar com %{social_netowork}"
+  edit: Editar
+  profile: Perfil
   activerecord:
     errors:
       messages:
@@ -19,6 +21,16 @@ pt-BR:
         restrict_dependent_destroy:
           has_one: Não é possível excluir o registro pois existe um %{record} dependente
           has_many: Não é possível excluir o registro pois existem %{record} dependentes
+    models:
+      user: Usuário
+      track: Curso
+    attributes:
+      user:
+        fullname: "Nome completo"
+        avatar: "Imagem de perfil"
+        password: "Senha"
+        password_confirmation: "Confirme sua senha"
+        current_password: "Senha atual"
   date:
     abbr_day_names:
     - Dom

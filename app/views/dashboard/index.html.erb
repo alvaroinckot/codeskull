@@ -10,11 +10,10 @@
 			--> 
 			<div class="col-md-3">
 
+
 				<div class="profile-picture">
-					<img src="http://cdn0.vox-cdn.com/images/verge/default-avatar.v9899025.gif" style="width: auto; height: auto;" />
+					<img src="<%= current_user.avatar.url %>" style="width: 100%; height: auto;"  title="Olá <%= current_user.fullname %>" />
 				</div>
-
-
 
 				<ul class="menu">
 					<li><%= link_to "EDITAR PERFIL", edit_user_registration_path %></li>

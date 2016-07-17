@@ -33,3 +33,4 @@ en:
   logout: Logout 
   social_networks: Around the Web
   login_with: "Login with %{social_netowork}"
+  edit: "Edit"
