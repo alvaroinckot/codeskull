@@ -10,6 +10,12 @@ class TracksController < ApplicationController
 	  })
   end
 
+  def new
+  end
+
+  def create
+  end
+
   def show
   end
 

@@ -21,7 +21,6 @@
 @import "scaffolds";
 @import "welcome";
 @import "users";
-@import "loader";
 
 
 #bs-example-navbar-collapse-1 > ul {
@@ -52,9 +51,6 @@ div:empty {
 	background-color: white;
 }
 
-.loader-row {
-	margin-top: 100px;
-}
 
 .menu {
 	
@@ -64,7 +60,7 @@ div:empty {
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 
 	li {
-		margin-top: 5px;
+		margin-top: 6px;
 	}
 
 	a:hover {
@@ -73,5 +69,29 @@ div:empty {
 }
 
 .profile-picture {
-	margin-bottom: 25px;
+	margin-bottom: 26px;
+}
+
+
+.left-bar {
+	padding-right: 16px;
+	border-right: solid 1px black;
+	height: 100%;
+}
+
+.ajax-loader {
+	position: absolute;
+	left: 0;
+	top: 280px;
+	right: 0;
+	bottom: 0;
+ 	margin: auto;
+}
+
+#stage {
+	padding: 16px;
+	text-align: center;
+	h5 {
+		color: #666;
+	}
 }

@@ -1,16 +1,9 @@
 <header>
-	
 </header>
 <section>
     <div class="container">
     	<div class="row">
-			<!--
-				<h4>Olá <%= current_user.fullname %></h4>
-				<%= link_to('Logout', destroy_user_session_path, :method => :delete) %> 
-			--> 
-			<div class="col-md-3">
-
-
+			<div class="left-bar col-md-3 col-sm-3">
 				<div class="profile-picture">
 					<img src="<%= current_user.avatar.url %>" style="width: 100%; height: auto;"  title="Olá <%= current_user.fullname %>" />
 				</div>
@@ -20,12 +13,11 @@
 					<li><a href="#">CADASTRAR CURSO</a></li>
 					<li><a href="#">MEUS CURSOS</a></li>
 				</ul>
-
 			</div>
-
-			<div class="cold-md-9">
-		        <div class="row loader-row">
-					<div class="loader"> </div>
+			<div class="col-md-9 col-sm-9">
+				<div id="stage" class="row">
+					<input type="hidden" id="#autosearch" />
+					<%=image_tag("ring.gif", :class=> "ajax-loader")%>
 				</div>
 			</div>
 		</div>
