@@ -95,3 +95,20 @@ div:empty {
 		color: #666;
 	}
 }
+
+.form-view {
+
+	section {
+		margin-top: 25px;
+
+		h3 {
+			margin-bottom: 15px;
+		}
+	
+	}
+
+	section > div {
+		margin: auto;
+		max-width: 500px;
+	}
+}

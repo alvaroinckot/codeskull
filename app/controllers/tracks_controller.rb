@@ -2,15 +2,18 @@ class TracksController < ApplicationController
 
   before_action :authenticate_user!
 	
-  layout false
+  layout 'dashboard'
 
   def index
-    render(:index, locals: {
+    render(:index, layout: false, locals: {
 	    tracks: Track.search(search_params[:q]),
 	  })
   end
 
   def new
+    render(:new, locals: {
+      track: Track.new
+    })
   end
 
   def create

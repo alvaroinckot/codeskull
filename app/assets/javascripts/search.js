@@ -1,6 +1,5 @@
-$(document).ready(function(){
+var ready = function(){
 
-	// search on load dashboard
 	$("#autosearch").ready(function(){
 		$.ajax({
 		  url: "/tracks?q=*:*",
@@ -10,4 +9,8 @@ $(document).ready(function(){
 		});
 	});
 
-});
+};
+
+$(document).ready(ready);
+$(document).on('page:load', ready)
+
