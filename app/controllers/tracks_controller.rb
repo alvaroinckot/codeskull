@@ -17,6 +17,10 @@ class TracksController < ApplicationController
   end
 
   def create
+    @track = Track.new(track_params)
+    if @track.save  
+      redirect_to '/' # should redirect to create new tasks
+    end
   end
 
   def show
@@ -32,7 +36,7 @@ class TracksController < ApplicationController
   end
 
   def track_params
-  	params.require(:track).permit(:title)
+  	params.require(:track).permit(:title, :description)
   end
 
   def search_params
