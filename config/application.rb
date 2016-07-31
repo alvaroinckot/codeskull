@@ -21,7 +21,7 @@ module Codeskull
         generator.fixture_replacement :factory_girl, dir: "spec/factories"
     end
 
-    Elasticsearch::Model.client = Elasticsearch::Client.new host: '172.18.0.4:9200'
+    Elasticsearch::Model.client = Elasticsearch::Client.new host: '172.18.0.2:9200'
     
   end
 end

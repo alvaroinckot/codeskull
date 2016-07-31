@@ -1,12 +1,13 @@
 class TracksController < ApplicationController
 
   before_action :authenticate_user!
+  before_action :set_track, only: [:show]
 	
   layout 'dashboard'
 
   def index
     render(:index, layout: false, locals: {
-	    tracks: Track.search(search_params[:q]),
+	    tracks: Track.search(search_params[:q]).records,
 	  })
   end
 
@@ -18,12 +19,20 @@ class TracksController < ApplicationController
 
   def create
     @track = Track.new(track_params)
-    if @track.save  
+    if @track.save
+      
+      params[:attachments].each { |attachment|
+          @track.contents.create(file: attachment)
+      }
+      
       redirect_to '/' # should redirect to create new tasks
     end
   end
 
   def show
+    render(:show, locals: {
+      track: @track,
+    })
   end
 
   def edit

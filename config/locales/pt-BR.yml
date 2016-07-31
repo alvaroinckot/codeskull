@@ -31,6 +31,10 @@ pt-BR:
         password: "Senha"
         password_confirmation: "Confirme sua senha"
         current_password: "Senha atual"
+      track: 
+        title: "Título"
+        description: "Descrição"
+        contents: "Conteúdo"
   date:
     abbr_day_names:
     - Dom

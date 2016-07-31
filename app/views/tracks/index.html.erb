@@ -1,8 +1,12 @@
 <h2>ULTIMOS CURSOS</h2>
 <hr/>
 <% tracks.each do |track| %>
-<div class="col-md-3">
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png" style="width: 100%;" />
-	<a href="#"><h5><%= track.title %></h5></a>
-</div>
+	<div class="col-md-3">
+		<% if !track.contents.first.nil? %>
+			<img src="<%= track.contents.first.file.url(:thumb) %>" style="width: 100%; max-height: 180px;" />
+		<% else %> 
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png" style="width: 100%;max-height: 180px;" />
+		<% end %>
+		<a href="<%= track_url(track) %>"><h5><%= track.title %></h5></a>
+	</div>
 <% end %>

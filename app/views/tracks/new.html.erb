@@ -4,14 +4,18 @@
 			<div class="row">
 				<h2>Novo curso</h2>
 				<hr/>
-				<%= form_for(track) do |f| %>
+				<%= form_for(track ,:html => { :multipart => true }) do |f| %>
 					<div class="form-group">
 				    	<%= f.label :title %><br />
 				    	<%= f.text_field :title, autofocus: true, class: 'form-control' %>
 					</div>
 					<div class="form-group">
-				    	<%= f.label :description %><br />
+				    	<%= f.label :description %><br/>
 				    	<%= f.text_area :description, autofocus: true, class: 'form-control' %>
+					</div>
+					<div class="form-group">
+						<%= f.label :contents %><br/>
+						<%= file_field_tag "attachments[]", type: :file, multiple: true %>
 					</div>
 					<input type="submit" value="Enviar" class="btn btn-default" />
 				<% end %>
