@@ -111,4 +111,24 @@ div:empty {
 		margin: auto;
 		max-width: 500px;
 	}
+
+	.gallery-edit {
+		margin: 0px;
+		margin-bottom: 25px;
+
+		img {
+			width: 100%;
+			max-height: 120px;
+		}
+
+		.col-sm-4 {
+			padding-left: 0px;
+		}
+
+	}
+
+}
+
+.content-deletable {
+	cursor: pointer;
 }

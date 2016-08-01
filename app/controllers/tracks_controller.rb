@@ -1,7 +1,7 @@
 class TracksController < ApplicationController
 
   before_action :authenticate_user!
-  before_action :set_track, only: [:show]
+  before_action :set_track, only: [:show, :edit, :update]
 	
   layout 'dashboard'
 
@@ -36,6 +36,18 @@ class TracksController < ApplicationController
   end
 
   def edit
+    render(:edit, locals: {
+      track: @track,
+    })
+  end
+
+  def update
+    if @track.update(track_params)
+      params[:attachments].each { |attachment|
+        @track.contents.create(file: attachment)
+      }
+      redirect_to track_url(@track)
+    end
   end
 
   private
