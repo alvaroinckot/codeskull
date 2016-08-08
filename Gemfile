@@ -23,15 +23,14 @@ gem 'elasticsearch', git: 'git://github.com/elasticsearch/elasticsearch-ruby.git
 gem 'elasticsearch-model', git: 'git://github.com/elasticsearch/elasticsearch-rails.git'
 gem 'elasticsearch-rails', git: 'git://github.com/elasticsearch/elasticsearch-rails.git'
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
 gem 'unicorn-rails'
 
 gem 'paperclip', '~> 4.1'
 gem 'paperclip-dropbox', '>= 1.1.7'
 
 gem 'foreman'
+
+gem 'pundit'
 
 group :development, :test do
   gem 'byebug'

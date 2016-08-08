@@ -18,17 +18,16 @@ RUN apt-get install -y nodejs
 # for a linux container enviroment manager
 RUN apt-get install -y lxc
 
-ENV APP_HOME /codeskull_web
+ENV APP_HOME /usr/src/app
 RUN mkdir $APP_HOME
+
 WORKDIR $APP_HOME
 
-ADD Gemfile* $APP_HOME/
 
-# --- Add this to your Dockerfile ---
-ENV BUNDLE_GEMFILE=$APP_HOME/Gemfile \
-  BUNDLE_JOBS=2 \
-  BUNDLE_PATH=/bundle
+ADD Gemfile $APP_HOME/Gemfile
+ADD Gemfile.lock $APP_HOME/Gemfile.lock
 
+ENV BUNDLE_GEMFILE=$APP_HOME/Gemfile 
 RUN bundle install
 
 ADD . $APP_HOME

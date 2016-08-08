@@ -17,14 +17,12 @@ class TracksController < ApplicationController
     })
   end
 
-  def create
-    @track = Track.new(track_params)
+  def create  
+    @track = Track.new(track_params.merge(user_id: current_user.id))
     if @track.save
-      
       params[:attachments].each { |attachment|
           @track.contents.create(file: attachment)
       }
-      
       redirect_to '/' # should redirect to create new tasks
     end
   end

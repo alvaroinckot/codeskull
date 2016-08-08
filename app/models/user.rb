@@ -6,6 +6,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :tracks
+  has_many :contents, through: :tracks
 
   has_attached_file :avatar, 
     :styles => { :medium => "600x600>", :thumb => "100x100#" }, 
