@@ -16,6 +16,16 @@ module Codeskull
 
     config.active_record.raise_in_transactional_callbacks = true
 
+    # TODO move this to enviroments/development.rb and set S3 configs in production
+    config.paperclip_defaults = { storage: :fog, 
+        fog_credentials: { 
+            provider: "Local", 
+            local_root: "#{Rails.root}/public"
+        }, 
+        fog_directory: "uploads", 
+        fog_host: "http://localhost:8080"
+    }
+
     config.generators do |generator|
         generator.test_framework :rspec, fixture: true
         generator.fixture_replacement :factory_girl, dir: "spec/factories"

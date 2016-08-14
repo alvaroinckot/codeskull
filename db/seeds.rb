@@ -19,9 +19,11 @@ track = Track.new({
 	Lord when I lay My vengeance upon thee."
 })
 
+
+track.user = user
+
 track.save!
 
-user.tracks << track
 
 puts "Total users: #{User.all.count}"
 puts "Total tracks: #{Track.all.count}"

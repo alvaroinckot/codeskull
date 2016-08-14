@@ -26,7 +26,7 @@ gem 'elasticsearch-rails', git: 'git://github.com/elasticsearch/elasticsearch-ra
 gem 'unicorn-rails'
 
 gem 'paperclip', '~> 4.1'
-gem 'paperclip-dropbox', '>= 1.1.7'
+gem 'fog'
 
 gem 'foreman'
 
