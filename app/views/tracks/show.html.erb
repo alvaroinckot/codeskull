@@ -1,8 +1,18 @@
-<section>
+<section class="container">
 	<div class="row">
 		<div class="col-md-6">
 			<h1><%= track.title %></h1>
-			<h3><%= track.description %></h3>
+			<p class="text-justify"><%= track.description %></p>
+		</div>
+		<div col-md-6>
+			<h3>Conteúdos</h3>
+			<div class="row">
+				<% track.contents.each do |content|%>
+					<a href="<%= content.file.url %>" data-toggle="lightbox" data-gallery="multiimages" data-title="<%= content.file.name %>" class="col-sm-1 thumb">
+                                    <img src="<%= content.file.url(:thumb) %>" class="img-responsive">
+                    </a>
+                <% end %>
+            </div>
 		</div>
 	</div>
 </section>

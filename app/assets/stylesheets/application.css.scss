@@ -1,17 +1,3 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- */
-
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 
@@ -21,7 +7,16 @@
 @import "scaffolds";
 @import "welcome";
 @import "users";
+@import "ekko-lightbox";
 
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../assets/fonts/glyphicons-halflings-regular.eot');
+  src: url('../assets/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
+       url('../assets/fonts/glyphicons-halflings-regular.woff') format('woff'), 
+       url('../assets/fonts/assets/glyphicons-halflings-regular.ttf') format('truetype'), 
+       url('../assets/fonts/assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
 
 #bs-example-navbar-collapse-1 > ul {
 	font-size: 1.15em;
@@ -54,7 +49,7 @@ div:empty {
 
 .menu {
 	
-	font-size: 1.5em;
+	font-size: 1.4em;
 	list-style-type: none;
 	padding: 0;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -131,4 +126,8 @@ div:empty {
 
 .content-deletable {
 	cursor: pointer;
+}
+
+.thumb:hover {
+	background-color: white;
 }
