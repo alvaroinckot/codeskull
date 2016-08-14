@@ -11,11 +11,11 @@
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url('../assets/fonts/glyphicons-halflings-regular.eot');
-  src: url('../assets/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
-       url('../assets/fonts/glyphicons-halflings-regular.woff') format('woff'), 
-       url('../assets/fonts/assets/glyphicons-halflings-regular.ttf') format('truetype'), 
-       url('../assets/fonts/assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('../assets/glyphicons-halflings-regular.eot');
+  src: url('../assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
+       url('../assets/glyphicons-halflings-regular.woff') format('woff'), 
+       url('../assets/glyphicons-halflings-regular.ttf') format('truetype'), 
+       url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
 #bs-example-navbar-collapse-1 > ul {
@@ -130,4 +130,8 @@ div:empty {
 
 .thumb:hover {
 	background-color: white;
+}
+
+.ekko-lightbox-nav-overlay a:hover {
+	background: none;
 }

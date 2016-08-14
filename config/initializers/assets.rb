@@ -4,7 +4,8 @@
 Rails.application.config.assets.version = '1.2'
 
 # Add additional assets to the asset load path
-Rails.application.config.assets.paths << 'app/assets/fonts'
+Rails.application.config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
+
 
 
 # Precompile additional assets.
