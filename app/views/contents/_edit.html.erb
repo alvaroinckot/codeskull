@@ -5,7 +5,7 @@
 	</div>
 	<% contents&.each do |content| %>
 		<div class="col-sm-4" class="thumb-box">
-			<%= link_to image_tag(content.file.url), content_path(content), method: :delete, data: { confirm: t(:confirm_message) }  %>
+			<%= link_to image_tag(content.file.url), content_path(content), method: :delete %>
 		</div>
 	<% end %>
 </div>
