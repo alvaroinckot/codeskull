@@ -18,15 +18,7 @@
 						<%= file_field_tag "attachments[]", type: :file, multiple: true %>
 					</div>
 					<div class="form-group">
-					<div class="row gallery-edit">
-						<label for="id">Imagens já cadastradas (click para remove-lás)</label><br/>
-						<input type="hidden" name="id" value="">
-						<% track.contents.each do |content| %>
-							<div class="col-sm-4">
-								<img class="content-deletable" src="<%= content.file.url(:thumb) %>" alt="Click para remover imagem!" />
-							</div>
-						<% end %>
-					</div>
+						<%= render partial: "contents/edit", locals: { contents: @track.contents } %>
 					</div>
 					<div class="form-group">
 						<input type="submit" value="Enviar" class="btn btn-default" />
@@ -34,6 +26,5 @@
 				<% end %>
 			</div>
 		</div>
-
 	</section>
 </div>

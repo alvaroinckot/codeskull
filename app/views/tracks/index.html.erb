@@ -2,7 +2,7 @@
 <hr/>
 <% tracks&.each do |track| %>
 	<div class="col-md-3">
-		<div style="height: 180px; overflow: hidden;">
+		<div class="thumb-box">
 			<% if !track.contents.first.nil? %>
 				<img src="<%= track.contents.first.file.url %>" style="height:100%;" />
 			<% else %> 

@@ -22,7 +22,7 @@ module Codeskull
             provider: "Local", 
             local_root: "#{Rails.root}/public"
         }, 
-        fog_directory: "uploads", 
+        fog_directory: "", 
         fog_host: "http://localhost:8080"
     }
 

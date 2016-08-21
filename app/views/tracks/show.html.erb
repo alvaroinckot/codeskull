@@ -8,7 +8,9 @@
 			</div>
 			<hr/>
 			<% if policy(track).update? %>
-			  <%= link_to t(:edit), edit_track_path %>
+			  <%= link_to edit_track_path(track) do %>
+			   	<i class="fa fa-pencil"></i> <%= t(:edit) %>
+			  <% end %>
 			<% end %>
 		</div>
 		<div col-md-6>

@@ -34,3 +34,5 @@ en:
   social_networks: Around the Web
   login_with: "Login with %{social_netowork}"
   edit: "Edit"
+  delete_content: Previously registered images (click to delete)
+  confirm_message: Are you sure?

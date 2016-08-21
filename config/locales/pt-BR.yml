@@ -14,6 +14,8 @@ pt-BR:
   login_with: "Entrar com %{social_netowork}"
   edit: Editar
   profile: Perfil
+  delete_content: Imagens já cadastradas (click para remove-lás)
+  confirm_message: Tem certeza que deseja remover isso?
   activerecord:
     errors:
       messages:

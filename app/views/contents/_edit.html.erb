@@ -1,0 +1,11 @@
+<div class="row gallery-edit">
+	<div class="col-sm-12">
+		<label for="id"><%= t(:delete_content) %></label><br/>
+		<input type="hidden" name="id" value="">
+	</div>
+	<% contents&.each do |content| %>
+		<div class="col-sm-4" class="thumb-box">
+			<%= link_to image_tag(content.file.url), content_path(content), method: :delete, data: { confirm: t(:confirm_message) }  %>
+		</div>
+	<% end %>
+</div>

@@ -10,7 +10,10 @@ class User < ActiveRecord::Base
 
   has_attached_file :avatar, 
     :styles => { :medium => "600x600>", :thumb => "100x100#" }, 
-    :default_url => "/default_user.png"
+    :default_url => "/default_user.png",
+    :use_timestamp => false,
+    :url => ':style/:hash.:extension',
+    :path => 'uploads/users/:url'
 
   validates_attachment_content_type :avatar, :content_type => /\Aimage\/.*\Z/
          
