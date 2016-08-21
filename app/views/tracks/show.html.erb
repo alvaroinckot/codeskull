@@ -1,10 +1,15 @@
 <section class="container">
 	<div class="row">
 		<div class="col-md-6">
-			<h1><%= track.title %></h1>
-			<p><small>Autor: <%= track.users.first&.fullname %></small><p>
-
-			<p class="text-justify"><%= track.description %></p>
+			<div>
+				<h1><%= track.title %></h1>
+				<p><small>Autor: <%= track.owner.fullname %></small></p>
+				<p class="text-justify"><%= track.description %></p>
+			</div>
+			<hr/>
+			<% if policy(track).update? %>
+			  <%= link_to t(:edit), edit_track_path %>
+			<% end %>
 		</div>
 		<div col-md-6>
 			<% if track.contents.any? %>
