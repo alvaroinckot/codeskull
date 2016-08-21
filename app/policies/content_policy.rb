@@ -6,12 +6,8 @@ class ContentPolicy < ApplicationPolicy
     @content = content
   end
 
-  def update?
-    @user.contents.find(content.id).nil?
-  end
-
-  def edit?
-    update?
+  def destroy?
+    @user.contents.any? { |c| c.id == @content.id }
   end
 
   def show?
