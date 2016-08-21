@@ -7,7 +7,7 @@ class TrackPolicy < ApplicationPolicy
   end
 
   def update?
-    @track.user.id == @user.id
+    @track.users.any? { |owner| owner.id == user.id }
   end
 
   def edit?
