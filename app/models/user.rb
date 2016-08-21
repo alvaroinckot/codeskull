@@ -5,7 +5,7 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-  has_many :tracks
+  has_and_belongs_to_many :tracks
   has_many :contents, through: :tracks
 
   has_attached_file :avatar, 

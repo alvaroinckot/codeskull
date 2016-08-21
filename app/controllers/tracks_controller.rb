@@ -18,7 +18,8 @@ class TracksController < ApplicationController
   end
 
   def create  
-    @track = Track.new(track_params.merge(user_id: current_user.id))
+    @track = Track.new(track_params)
+    @track.users << current_user
     if @track.save
       params[:attachments]&.each { |attachment|
           @track.contents.create(file: attachment)

@@ -20,7 +20,9 @@ track = Track.new({
 })
 
 
-track.user = user
+track.save!
+
+track.users << user
 
 track.save!
 

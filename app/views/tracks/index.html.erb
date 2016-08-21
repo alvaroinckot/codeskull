@@ -1,6 +1,6 @@
 <h2>ULTIMOS CURSOS</h2>
 <hr/>
-<% tracks.each do |track| %>
+<% tracks&.each do |track| %>
 	<div class="col-md-3">
 		<div style="height: 180px; overflow: hidden;">
 			<% if !track.contents.first.nil? %>

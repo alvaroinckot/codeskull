@@ -8,7 +8,9 @@ Rails.application.routes.draw do
     
     devise_for :users
 
-    resources :tracks
+    resources :tracks do
+    	resources :tasks
+    end
 
   end
 
