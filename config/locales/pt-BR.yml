@@ -16,6 +16,11 @@ pt-BR:
   profile: Perfil
   delete_content: Imagens já cadastradas (click para remove-lás)
   confirm_message: Tem certeza que deseja remover isso?
+  create_task: Adicionar Tarefas
+  environment: Ambiente
+  basic: Básico
+  application: Aplicação
+  service: Serviços
   activerecord:
     errors:
       messages:

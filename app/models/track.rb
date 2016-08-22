@@ -11,4 +11,8 @@ class Track < ActiveRecord::Base
   	self.users.first
   end
   
+  def tasks_of(category)
+  	self.tasks.select{ |t| t.category == category }
+  end
+
 end

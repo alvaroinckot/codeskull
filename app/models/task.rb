@@ -1,3 +1,4 @@
 class Task < ActiveRecord::Base
-	belongs_to: track
+	enum category: [ :environment, :basic, :application, :service ]
+	belongs_to :track
 end

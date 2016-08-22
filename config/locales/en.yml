@@ -36,3 +36,8 @@ en:
   edit: "Edit"
   delete_content: Previously registered images (click to delete)
   confirm_message: Are you sure?
+  create_task: Create task
+  environment: Environment
+  basic: Basic
+  application: Application
+  service: Service

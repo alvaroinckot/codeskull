@@ -7,9 +7,24 @@
 				<p class="text-justify"><%= track.description %></p>
 			</div>
 			<hr/>
+			<h3>Ementa</h3>
+			<% Task.categories.each do |category| %>
+				<% if track.tasks_of(category[0])&.any? %>
+					<p><%= t(category[0]) %></p>
+					<ul>
+						<% track.tasks_of(category[0]).each do |task| %>
+							<li><%= task.title %></li>
+						<% end %>
+					</ul>
+				<% end %>
+			<% end %>
+			<hr/>
 			<% if policy(track).update? %>
 			  <%= link_to edit_track_path(track) do %>
 			   	<i class="fa fa-pencil"></i> <%= t(:edit) %>
+			  <% end %>
+			  <%= link_to track_tasks_path(track) do %>
+			   	<i class="fa fa-plus"></i> <%= t(:create_task) %>
 			  <% end %>
 			<% end %>
 		</div>

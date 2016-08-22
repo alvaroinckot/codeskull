@@ -1,0 +1,33 @@
+<div class="form-view">
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="cold-sm-12">
+					<h1>Tarefas do curso</h1>
+					<small>Total de tarefas: <%= track.tasks.count %></small>
+					<% Task.categories.each do |category| %>
+					<div class="task-list">
+						<h4>
+							<%= link_to new_track_task_path(track) do %>
+						   	  <i class="fa fa-plus"></i>
+						    <% end %>
+							<%= t(category[0]) %>:
+						</h4>
+						<% if track.tasks_of(category[0])&.any? %>
+							<ul>
+								<% track.tasks_of(category[0]).each do |task| %>
+									<li><%= task.title %></li>
+								<% end %>
+							</ul>
+						<% else %>
+							<ul>
+								<li>Nenhuma tarefa encontrada nessa categoria!</li>
+							</ul>
+						<% end %>
+					</div>
+					<% end %>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
