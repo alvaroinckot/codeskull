@@ -1,0 +1,1 @@
+BetterErrors::Middleware.allow_ip! '172.18.0.1'
