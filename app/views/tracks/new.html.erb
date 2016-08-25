@@ -2,7 +2,7 @@
 	<section>
 		<div class="container">
 			<div class="row">
-				<h2>Novo curso</h2>
+				<h2><%= t(:new_track) %></h2>
 				<hr/>
 				<%= form_for(track ,:html => { :multipart => true }) do |f| %>
 					<div class="form-group">
@@ -17,7 +17,15 @@
 						<%= f.label :contents %><br/>
 						<%= file_field_tag "attachments[]", type: :file, multiple: true %>
 					</div>
-					<input type="submit" value="Enviar" class="btn btn-default" />
+					<div class="form-group">
+						<%= f.label :language %><br />
+						<%= f.select(:language, collection: Track.languages.keys.to_a.map { |e| [e.humanize, e] }) %>
+					</div>
+					<div class="form-group">
+						<%= f.label :idiom %><br />
+						<%= f.select(:idiom, collection: Track.idioms.keys.to_a.map { |e| [t(e), e] }) %>
+					</div>
+					<%= submit_tag(nil, class: 'btn btn-default') %>
 				<% end %>
 			</div>
 		</div>

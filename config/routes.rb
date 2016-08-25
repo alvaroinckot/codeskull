@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :grades
   scope "(:locale)", locale: /pt-BR|en/ do
     
     root 'dashboard#index'

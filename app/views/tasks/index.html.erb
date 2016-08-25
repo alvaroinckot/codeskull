@@ -16,7 +16,12 @@
 						<% if track.tasks_of(category[0])&.any? %>
 							<ul>
 								<% track.tasks_of(category[0]).each do |task| %>
-									<li><%= task.title %></li>
+									<li>
+										<%= task.title %>
+										<%= link_to track_task_path(track,task), method: :delete  do %>
+											<i class="fa fa-times" aria-hidden="true"></i>
+										<% end %>
+									</li>
 								<% end %>
 							</ul>
 						<% else %>

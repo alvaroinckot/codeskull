@@ -1,4 +1,6 @@
 pt-BR:
+  pt_br: Português
+  eng: Inglês
   name: Code Skull
   about: Sobre
   contribute: Contribua
@@ -42,6 +44,9 @@ pt-BR:
         title: "Título"
         description: "Descrição"
         contents: "Conteúdo"
+        language: "Linguagem"
+        idiom: "Idioma"
+        contents: "Conteúdos"
   date:
     abbr_day_names:
     - Dom

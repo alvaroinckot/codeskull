@@ -2,6 +2,7 @@ class TasksController < ApplicationController
 	
   	before_action :authenticate_user!
   	before_action :set_track
+  	before_action :set_task, only: [:destroy]
 	
 	layout 'dashboard'
 	
@@ -25,13 +26,21 @@ class TasksController < ApplicationController
 		redirect_to track_tasks_path(@track)
 	end
 
-	def delete
+	def destroy
+		@task.destroy
+		redirect_to track_tasks_path(@track)
 	end
 
 	private
 
 		def set_track
 			@track = Track.find(params[:track_id])
+			# authorize @track
+		end
+
+		def set_task
+			@task = Task.find(params[:id])
+			# authorize @task
 		end
 
 		def task_params

@@ -7,15 +7,21 @@ class TrackPolicy < ApplicationPolicy
   end
 
   def update?
-    @track.users.any? { |owner| owner.id == user.id }
+    check_ownership
   end
 
   def edit?
-    update?
+    check_ownership
   end
 
   def show?
-  	true
+  	check_ownership
   end
+
+  private 
+
+    def check_ownership
+      @track.users.any? { |owner| owner.id == user.id }
+    end
   
 end

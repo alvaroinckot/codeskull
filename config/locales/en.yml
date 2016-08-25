@@ -20,6 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  pt_br: Portuguese - BR
+  eng: English
   name: Code Skull
   about: About
   contribute: Contribute
@@ -41,3 +43,4 @@ en:
   basic: Basic
   application: Application
   service: Service
+  new_track: New Track
