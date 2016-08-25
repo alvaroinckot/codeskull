@@ -3,11 +3,15 @@
 		<div class="col-md-6">
 			<div>
 				<h1><%= track.title %></h1>
-				<p><small>Autor: <%= track.owner.fullname %></small></p>
+				<p>
+					<small>Autor: <%= track.owner.fullname %> |</small>
+					<small>Linguagem: <%= track.language.humanize %> | </small>
+					<small>Idioma: <%= t(track.idiom) %></small>
+				</p>
 				<p class="text-justify"><%= track.description %></p>
 			</div>
 			<hr/>
-			<h3>Ementa</h3>
+			<h3>Ementa - <%= track.tasks.count %> tarefa(s)</h3>
 			<% Task.categories.each do |category| %>
 				<% if track.tasks_of(category[0])&.any? %>
 					<p><%= t(category[0]) %></p>
@@ -19,7 +23,9 @@
 				<% end %>
 			<% end %>
 			<hr/>
+			<a href="#" class="btn btn-primary btn-large grade-button" style="width: 100%">INICIAR CURSO</a>
 			<% if policy(track).update? %>
+				<hr/>
 			  <%= link_to edit_track_path(track) do %>
 			   	<i class="fa fa-pencil"></i> <%= t(:edit) %>
 			  <% end %>
