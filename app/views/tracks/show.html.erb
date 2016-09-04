@@ -23,7 +23,7 @@
 				<% end %>
 			<% end %>
 			<hr/>
-			<a href="#" class="btn btn-primary btn-large grade-button" style="width: 100%">INICIAR CURSO</a>
+			<a href="/pt-BR/tracks/<%= track.id %>/tasks/<%= track.tasks.first.id %>" class="btn btn-primary btn-large grade-button" style="width: 100%">INICIAR CURSO</a>
 			<% if policy(track).update? %>
 				<hr/>
 			  <%= link_to edit_track_path(track) do %>

@@ -12,6 +12,7 @@ Rails.application.routes.draw do
     resources :tracks do
     	resources :tasks
     end
+    
     resources :contents, only: [ :destroy ]
 
   end

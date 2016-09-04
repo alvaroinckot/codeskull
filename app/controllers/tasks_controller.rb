@@ -2,7 +2,7 @@ class TasksController < ApplicationController
 	
   	before_action :authenticate_user!
   	before_action :set_track
-  	before_action :set_task, only: [:destroy]
+  	before_action :set_task, only: [:destroy, :show]
 	
 	layout 'dashboard'
 	
@@ -29,6 +29,13 @@ class TasksController < ApplicationController
 	def destroy
 		@task.destroy
 		redirect_to track_tasks_path(@track)
+	end
+
+	def show
+		render(:show, locals: {
+	      track: @track,
+	      task: @task
+	    })
 	end
 
 	private
