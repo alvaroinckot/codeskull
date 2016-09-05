@@ -23,6 +23,7 @@ pt-BR:
   basic: Básico
   application: Aplicação
   service: Serviços
+  new_track: Novo Curso
   activerecord:
     errors:
       messages:

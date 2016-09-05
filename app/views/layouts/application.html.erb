@@ -10,9 +10,15 @@
     <title>Codeskull</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   </head>
-  <body id="page-top" class="index">
-    <%= render 'welcome/navbar' %>
-  	<%= yield %>
+  <body>
+    <div id="wrapper" class="wrapper-lp">
+      <%= render 'welcome/navbar' %>
+      <div id="page-wrapper">
+        <div class="container-fluid">
+    	   <%= yield %>
+        </div>
+      </div>
+    </div>
   	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   </body>
 </html>

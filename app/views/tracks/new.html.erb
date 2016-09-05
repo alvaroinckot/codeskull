@@ -1,34 +1,29 @@
-<div class="form-view">
-	<section>
-		<div class="container">
-			<div class="row">
-				<h2><%= t(:new_track) %></h2>
-				<hr/>
-				<%= form_for(track ,:html => { :multipart => true }) do |f| %>
-					<div class="form-group">
-				    	<%= f.label :title %><br />
-				    	<%= f.text_field :title, autofocus: true, class: 'form-control' %>
-					</div>
-					<div class="form-group">
-				    	<%= f.label :description %><br/>
-				    	<%= f.text_area :description, autofocus: true, class: 'form-control' %>
-					</div>
-					<div class="form-group">
-						<%= f.label :contents %><br/>
-						<%= file_field_tag "attachments[]", type: :file, multiple: true %>
-					</div>
-					<div class="form-group">
-						<%= f.label :language %><br />
-						<%= f.select(:language, collection: Track.languages.keys.to_a.map { |e| [e.humanize, e] }) %>
-					</div>
-					<div class="form-group">
-						<%= f.label :idiom %><br />
-						<%= f.select(:idiom, collection: Track.idioms.keys.to_a.map { |e| [t(e), e] }) %>
-					</div>
-					<%= submit_tag(nil, class: 'btn btn-default') %>
-				<% end %>
+<div class="row">
+	<div class="col-lg-12">
+		<h2><%= t(:new_track) %></h2>
+		<hr/>
+		<%= form_for(track ,:html => { :multipart => true }) do |f| %>
+			<div class="form-group">
+		    	<%= f.label :title %><br />
+		    	<%= f.text_field :title, autofocus: true, class: 'form-control' %>
 			</div>
-		</div>
-
-	</section>
+			<div class="form-group">
+		    	<%= f.label :description %><br/>
+		    	<%= f.text_area :description, autofocus: true, class: 'form-control' %>
+			</div>
+			<div class="form-group">
+				<%= f.label :contents %><br/>
+				<%= file_field_tag "attachments[]", type: :file, multiple: true %>
+			</div>
+			<div class="form-group">
+				<%= f.label :language %><br />
+				<%= f.select(:language, collection: Track.languages.keys.to_a.map { |e| [e.humanize, e] }) %>
+			</div>
+			<div class="form-group">
+				<%= f.label :idiom %><br />
+				<%= f.select(:idiom, collection: Track.idioms.keys.to_a.map { |e| [t(e), e] }) %>
+			</div>
+			<%= submit_tag(nil, class: 'btn btn-default') %>
+		<% end %>
+	</div>
 </div>

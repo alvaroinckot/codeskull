@@ -1,22 +1,18 @@
-<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<h3><%= task.title %></h3>
-					<p><%= task.content %></p>
-					<hr/>
-					<a href="#" class="btn btn-info">ANTERIOR</a>
-				</div>
-				<div class="col-sm-4">
-					<textarea style="width: 100%;" rows="20"><%= task.snippet %></textarea>
-					<hr/>
-					<a href="#" class="btn btn-default" style="width: 100%;">ENVIAR</a>
-				</div>
-				<div class="col-sm-4">
-					<textarea style="width: 100%" rows="20">Console output</textarea>
-					<hr/>
-					<a href="/pt-BR/tracks/<%= track.id %>/tasks/<%= task.id + 1 %>" class="btn btn-info" style="float: right;" >PRÓXIMO</a>
-				</div>
-			</div>
-		</div>
-</section>
+<div class="row">
+	<div class="col-sm-4">
+		<h3><%= task.title %></h3>
+		<p><%= task.content %></p>
+		<hr/>
+		<a href="#" class="btn btn-info">ANTERIOR</a>
+	</div>
+	<div class="col-sm-4">
+		<textarea style="width: 100%;" data-lang="<%= track.language %>" rows="20"><%= task.snippet %></textarea>
+		<hr/>
+		<a href="#" class="btn btn-default" style="width: 100%;">ENVIAR</a>
+	</div>
+	<div class="col-sm-4">
+		<textarea style="width: 100%" rows="20">Console output</textarea>
+		<hr/>
+		<a href="/pt-BR/tracks/<%= track.id %>/tasks/<%= task.id + 1 %>" class="btn btn-info" style="float: right;" >PRÓXIMO</a>
+	</div>
+</div>

@@ -1,52 +1,50 @@
-<section class="container">
-	<div class="row">
-		<div class="col-md-6">
-			<div>
-				<h1><%= track.title %></h1>
-				<p>
-					<small>Autor: <%= track.owner.fullname %> |</small>
-					<small>Linguagem: <%= track.language.humanize %> | </small>
-					<small>Idioma: <%= t(track.idiom) %></small>
-				</p>
-				<p class="text-justify"><%= track.description %></p>
-			</div>
-			<hr/>
-			<h3>Ementa - <%= track.tasks.count %> tarefa(s)</h3>
-			<% Task.categories.each do |category| %>
-				<% if track.tasks_of(category[0])&.any? %>
-					<p><%= t(category[0]) %></p>
-					<ul>
-						<% track.tasks_of(category[0]).each do |task| %>
-							<li><%= task.title %></li>
-						<% end %>
-					</ul>
-				<% end %>
-			<% end %>
-			<hr/>
-			<a href="/pt-BR/tracks/<%= track.id %>/tasks/<%= track.tasks.first.id %>" class="btn btn-primary btn-large grade-button" style="width: 100%">INICIAR CURSO</a>
-			<% if policy(track).update? %>
-				<hr/>
-			  <%= link_to edit_track_path(track) do %>
-			   	<i class="fa fa-pencil"></i> <%= t(:edit) %>
-			  <% end %>
-			  <%= link_to track_tasks_path(track) do %>
-			   	<i class="fa fa-plus"></i> <%= t(:create_task) %>
-			  <% end %>
-			<% end %>
+<div class="row">
+	<div class="col-md-6">
+		<div>
+			<h1><%= track.title %></h1>
+			<p>
+				<small>Autor: <%= track.owner.fullname %> |</small>
+				<small>Linguagem: <%= track.language&.humanize %> | </small>
+				<small>Idioma: <%= t(track.idiom) %></small>
+			</p>
+			<p class="text-justify"><%= track.description %></p>
 		</div>
-		<div col-md-6>
-			<% if track.contents.any? %>
-			<div>
-				<h3>Conteúdos</h3>
-				<div class="row">
-					<% track.contents.each do |content|%>
-						<a href="<%= content.file.url %>" data-toggle="lightbox" data-gallery="multiimages" data-title="<%= content.file.name %>" class="col-sm-1 thumb">
-	                                    <img src="<%= content.file.url(:thumb) %>" class="img-responsive">
-	                    </a>
-	                <% end %>
-	            </div>
-            </div>
-            <% end %>
-		</div>
+		<hr/>
+		<h3>Ementa - <%= track.tasks.count %> tarefa(s)</h3>
+		<% Task.categories.each do |category| %>
+			<% if track.tasks_of(category[0])&.any? %>
+				<p><%= t(category[0]) %></p>
+				<ul>
+					<% track.tasks_of(category[0]).each do |task| %>
+						<li><%= task.title %></li>
+					<% end %>
+				</ul>
+			<% end %>
+		<% end %>
+		<hr/>
+		<a href="/pt-BR/tracks/<%= track.id %>/tasks/<%= track.tasks.first&.id %>" class="btn btn-primary btn-large grade-button" style="width: 100%">INICIAR CURSO</a>
+		<% if policy(track).update? %>
+			<hr/>
+		  <%= link_to edit_track_path(track) do %>
+		   	<i class="fa fa-pencil"></i> <%= t(:edit) %>
+		  <% end %>
+		  <%= link_to track_tasks_path(track) do %>
+		   	<i class="fa fa-plus"></i> <%= t(:create_task) %>
+		  <% end %>
+		<% end %>
 	</div>
-</section>
+	<div col-md-6>
+		<% if track.contents.any? %>
+		<div>
+			<h3>Conteúdos</h3>
+			<div class="row">
+				<% track.contents.each do |content|%>
+					<a href="<%= content.file.url %>" data-toggle="lightbox" data-gallery="multiimages" data-title="<%= content.file.name %>" class="col-sm-1 thumb">
+                                    <img src="<%= content.file.url(:thumb) %>" class="img-responsive">
+                    </a>
+                <% end %>
+            </div>
+        </div>
+        <% end %>
+	</div>
+</div>

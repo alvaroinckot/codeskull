@@ -7,7 +7,7 @@ class TracksController < ApplicationController
 
   def index
     render(:index, layout: false, locals: {
-	    tracks: Track.search(search_params[:q]).records,
+	    tracks: Track.search(query).records,
 	  })
   end
 
@@ -57,11 +57,15 @@ class TracksController < ApplicationController
   end
 
   def track_params
-  	params.require(:track).permit(:title, :description)
+  	params.require(:track).permit(:title, :description, :language, :idiom)
   end
 
   def search_params
     params.permit(:q)
+  end
+
+  def query
+    "*#{search_params[:q]}*"
   end
 	
 end

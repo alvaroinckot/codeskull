@@ -1,14 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+//= require codemirror
 
 @import "font-awesome";
 @import "bootstrap";
-@import "freelancer";
-@import "scaffolds";
-@import "welcome";
-@import "users";
-@import "tasks";
-@import "ekko-lightbox";
+@import "sb-admin";
+@import "plugins/morris.css";
 
 @font-face {
   font-family: 'Glyphicons Halflings';
@@ -19,126 +14,15 @@
        url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
-#bs-example-navbar-collapse-1 > ul {
-	font-size: 1.15em;
+#wrapper.wrapper-lp {
+	padding: 40px;
+	position: relative;
+	height: auto !important; 
+  min-height: 100%; 
 }
 
-div:empty {
-   display: none;
-}
-
-.search-nav {
-	input {
-		font-size: 24px;
-    	margin: 16px;
-    	outline: none;
-    	border: none;
-    	width: 100%;
-	}
-}
-
-.navbar {
-	ul {
-		list-style-type: none;
-	}
-}
-
-.navbar-white {
-	background-color: white;
-}
-
-
-.menu {
-	
-	font-size: 1.4em;
-	list-style-type: none;
-	padding: 0;
-	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-
-	li {
-		margin-top: 6px;
-	}
-
-	a:hover {
-		background-color: white;
-	}
-}
-
-.profile-picture {
-	margin-bottom: 26px;
-}
-
-
-.left-bar {
-	padding-right: 16px;
-	border-right: solid 1px black;
-	height: 100%;
-}
-
-.ajax-loader {
-	position: absolute;
-	left: 0;
-	top: 280px;
-	right: 0;
-	bottom: 0;
- 	margin: auto;
-}
-
-#stage {
-	padding: 16px;
-	text-align: center;
-	h5 {
-		color: #666;
-	}
-}
-
-.form-view {
-
-	section {
-		margin-top: 25px;
-
-		h3 {
-			margin-bottom: 15px;
-		}
-	
-	}
-
-	section > div {
-		margin: auto;
-		max-width: 500px;
-	}
-
-	.gallery-edit {
-		margin: 0px;
-		margin-bottom: 25px;
-
-		img {
-			width: 100%;
-			max-height: 120px;
-		}
-
-		.col-sm-4 {
-			padding-left: 0px;
-		}
-
-	}
-
-}
-
-.content-deletable {
-	cursor: pointer;
-}
-
-.thumb:hover {
-	background-color: white;
-}
-
-.ekko-lightbox-nav-overlay a:hover {
-	background: none;
-}
-
-.container a:hover {
-	background: none;
+#page-wrapper {
+  min-height: 580px;
 }
 
 .thumb-box {
@@ -146,8 +30,7 @@ div:empty {
 	overflow: hidden;
 }
 
-.grade-button {
-	width: 100%;
-	background-color: white;
+CodeMirror {
+  border: 1px solid #eee;
+  height: auto;
 }
-

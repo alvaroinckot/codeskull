@@ -13,7 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require bootstrap
-//= require ekko-lightbox
+//= require codemirror
+//= require codemirror/modes/xml
+//= require codemirror/modes/htmlmixed
+//= require codemirror/modes/javascript
+//= require codemirror/modes/ruby
+//= require codemirror/modes/haml
 //= require_tree .
 
+$('.dropdown-toggle').dropdown()  

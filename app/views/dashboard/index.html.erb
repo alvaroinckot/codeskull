@@ -1,24 +1,18 @@
-<header>
-</header>
-<section>
-    <div class="container">
-    	<div class="row">
-			<div class="left-bar col-md-3 col-sm-3">
-				<div class="profile-picture">
-					<img src="<%= current_user.avatar.url %>" style="width: 100%; height: auto;"  title="Olá <%= current_user.fullname %>" />
-				</div>
-				<ul class="menu">
-					<li><i class="fa fa-pencil" aria-hidden="true"></i><%= link_to " EDITAR PERFIL", edit_user_registration_path %></li>
-					<li><i class="fa fa-plus" aria-hidden="true"></i><%= link_to " CADASTRAR CURSO", new_track_path %></a></li>
-					<li><i class="fa fa-book" aria-hidden="true"></i><a href="#"> MEUS CURSOS</a></li>
-				</ul>
-			</div>
-			<div class="col-md-9 col-sm-9">
-				<div id="stage" class="row">
-					<input type="hidden" id="#autosearch" />
-					<%=image_tag("ring.gif", :class=> "ajax-loader")%>
-				</div>
-			</div>
+<div class="row">
+	<div class="col-lg-12">
+		<h1 class="page-header">Pesquise por cursos:</h1>
+		<div class="form-group">
+			<input id="search-field" type="text" placeholder="e.g. Ruby, C#, .NET..." class="form-control" />	
 		</div>
-	</div>  
-</section>
+	</div>
+</div>
+<hr/>
+<div class="row">
+	<div class="col-md-12 col-sm-12">
+		<div id="stage" class="row">
+			<input type="hidden" id="autosearch" />
+			<%=image_tag("ring.gif", :class=> "ajax-loader")%>
+		</div>
+	</div>
+</div>
+

@@ -7,18 +7,18 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <%= csrf_meta_tags %>
-    <title>Code Skull</title>
+    <title>Dashboard</title>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   </head>
-  <body class="form-view">
-    <%= render 'users/navbar' %>
-    <section>
-      <div class="container">
-        <div class="row">
-          <%= yield %>
+  <body>
+    <div id="wrapper">
+      <%= render 'dashboard/navbar' %>
+      <div id="page-wrapper">
+        <div class="container-fluid">
+         <%= yield %>
         </div>
       </div>
-    </section>
+    </div>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   </body>
 </html>

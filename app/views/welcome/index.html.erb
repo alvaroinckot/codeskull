@@ -1,42 +1,14 @@
-<!-- Header -->
-<header>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="intro-text">
-                    <span class="name"><%= t('name') %></span>
-                    <hr/>
-                    <span class="skills"><%= t('slogan') %></span>
-                </div>
-            </div>
-        </div>
+<div class="row">
+    <div class="col-sm-4 text-center">
+        <a href="<%= new_user_registration_url %>"><h1 class="page-header"><%= t('register_courses') %></h1></a>
     </div>
-</header>
-
-<!-- Portfolio Grid Section -->
-<section>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 portfolio-item text-center vcenter">
-               <a href="<%= new_user_registration_url %>"><h2><%= t('register_courses') %></h2></a>
-            </div>
-            <div class="col-sm-4 portfolio-item text-center vcenter">
-               <a href="<%= new_user_registration_url %>"><h2><%= t('learn_for_free') %></h2></a>
-            </div>
-            <div class="col-sm-4 portfolio-item text-center">
-                <%= render 'users/sessions/new' %>
-            </div>
-        </div>
+    <div class="col-sm-4 text-center">
+        <a href="<%= new_user_registration_url %>"><h1 class="page-header"><%= t('learn_for_free') %></h1></a>
     </div>
-</section>
-
-
-
-<!-- Footer -->
+    <div class="col-sm-4 text-center">
+        <%= render 'users/sessions/new' %>
+    </div>
+ </div>
 <footer class="text-center">
     <div class="footer-above">
         <div class="container">
@@ -45,28 +17,10 @@
 
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3><%= t('social_networks') %></h3>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                        </li>
-                    </ul>
+
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3><%= t('about') %> <%= t('name') %></h3>
-                    <p>Lorem ipsum don sit amet.</p>
+
                 </div>
             </div>
         </div>
@@ -81,10 +35,3 @@
         </div>
     </div>
 </footer>
-
-<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-<div class="scroll-top page-scroll visible-xs visible-sm">
-    <a class="btn btn-primary" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-    </a>
-</div>
