@@ -1,6 +1,10 @@
 <div class="row">
-	<div class="cold-sm-12">
-		<h1>Tarefas do curso</h1>
+	<div class="col-lg-12">
+		<h1 class="page-header">Tarefas do curso</h1>
+	</div>
+</div>
+<div class="row">
+	<div class="col-lg-12">
 		<small>Total de tarefas: <%= track.tasks.count %></small>
 		<% Task.categories.each do |category| %>
 		<div class="task-list">
@@ -17,6 +21,9 @@
 							<%= task.title %>
 							<%= link_to track_task_path(track,task), method: :delete  do %>
 								<i class="fa fa-times" aria-hidden="true"></i>
+							<% end %>
+							<%= link_to edit_track_task_path(track,task), method: :get  do %>
+								<i class="fa fa-pencil" aria-hidden="true"></i>
 							<% end %>
 						</li>
 					<% end %>

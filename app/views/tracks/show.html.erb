@@ -22,7 +22,14 @@
 			<% end %>
 		<% end %>
 		<hr/>
-		<a href="/pt-BR/tracks/<%= track.id %>/tasks/<%= track.tasks.first&.id %>" class="btn btn-primary btn-large grade-button" style="width: 100%">INICIAR CURSO</a>
+
+		<%= form_for([current_user, Grade.new]) do |f| %>
+			<input type="hidden" name="grade[track_id]" value="<%= track.id %>">
+			<input type="submit" class="btn btn-primary btn-large grade-button" style="width: 100%">INICIAR CURSO</input>
+		<% end %>
+		
+
+
 		<% if policy(track).update? %>
 			<hr/>
 		  <%= link_to edit_track_path(track) do %>

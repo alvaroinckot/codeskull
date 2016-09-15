@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-  resources :grades
   scope "(:locale)", locale: /pt-BR|en/ do
     
     root 'dashboard#index'
@@ -8,6 +7,10 @@ Rails.application.routes.draw do
     get '/login' => 'welcome#index' , as: 'root_login'
     
     devise_for :users
+
+    resources :users do
+      resources :grades
+    end
 
     resources :tracks do
     	resources :tasks

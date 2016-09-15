@@ -2,7 +2,7 @@ class TasksController < ApplicationController
 	
   	before_action :authenticate_user!
   	before_action :set_track
-  	before_action :set_task, only: [:destroy, :show]
+  	before_action :set_task, only: [:destroy, :show, :edit, :update]
 	
 	layout 'dashboard'
 	
@@ -37,6 +37,20 @@ class TasksController < ApplicationController
 	      task: @task
 	    })
 	end
+
+	def edit
+		render(:edit, locals: {
+	      track: @track,
+	      task: @task
+	    })
+	end
+
+	def update
+		if @task.update(task_params)
+			redirect_to track_tasks_path(@track)
+		end
+	end
+
 
 	private
 

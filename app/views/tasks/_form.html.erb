@@ -1,0 +1,21 @@
+<%= form_for([track,task]) do |f| %>
+	<div class="form-group">
+		<%= f.label :category %><br />
+		<%= f.select(:category, collection: Task.categories.keys.to_a.map { |e| [t(e), e] }) %>
+	</div>
+	<div class="form-group">
+    	<%= f.label :title %><br />
+    	<%= f.text_field :title, autofocus: true, class: 'form-control' %>
+	</div>
+	<div class="form-group">
+    	<%= f.label :content %><br/>
+    	<%= f.text_area :content, class: 'form-control' %>
+	</div>
+	<div class="form-group">
+    	<%= f.label :snippet %><br/>
+    	<%= f.text_area :snippet, class: 'form-control', data: { lang: track.language } %>
+	</div>
+	<div class="form-group">
+		<input type="submit" value="Enviar" class="btn btn-default" />
+	</div>
+<% end %>
