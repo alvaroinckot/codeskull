@@ -14,10 +14,16 @@ class Grade < ActiveRecord::Base
     self.activities.where(completed: true).count
   end
 
+  def actual_activity
+    # TODO test it
+    return self.activities.last
+  end
+
   private
 
     def setup_grade
-	  activity = Activity.new(grade: self, task: track.tasks.first)
+	    activity = Activity.new(grade: self, task: track.tasks.first)
+      self.activities << activity
     end
 
 end

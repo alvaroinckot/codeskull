@@ -1,6 +1,7 @@
 class GradesController < ApplicationController
 
   before_action :set_grade, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
 
   layout 'dashboard'
   
@@ -15,7 +16,7 @@ class GradesController < ApplicationController
     @grade = Grade.new(grade_params)
     @grade.user = current_user
     if @grade.save
-      redirect_to [current_user, @grade], notice: 'Grade was successfully created.'
+      redirect_to [current_user, @grade, @grade.actual_activity]
     else
       format.html { render :new }
     end

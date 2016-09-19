@@ -13,7 +13,9 @@
         </div>
         <div class="panel-body">
          <p><%= grade.total_completed_tasks %>/<%= grade.total_tasks %> concluido</p>
-         <a href="#" class="btn btn-primary">CONTINUAR</a>
+         <%= link_to([current_user, grade, grade.actual_activity], class: "btn btn-primary") do %>
+          CONTINUAR
+         <% end %>
         </div>
       </div>
     <% end %>
