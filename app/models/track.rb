@@ -18,4 +18,8 @@ class Track < ActiveRecord::Base
   	self.tasks.select{ |t| t.category == category }
   end
 
+  def tasks_count
+    self.tasks.count
+  end
+
 end

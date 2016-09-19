@@ -12,7 +12,8 @@
           <%= grade.track.title %>
         </div>
         <div class="panel-body">
-          X % concluído <%= grade.finished %>
+         <p><%= grade.total_completed_tasks %>/<%= grade.total_tasks %> concluido</p>
+         <a href="#" class="btn btn-primary">CONTINUAR</a>
         </div>
       </div>
     <% end %>

@@ -36,4 +36,5 @@ class GradesController < ApplicationController
     def check_params
       params[:user_id] == 'me'
     end
+    
 end
