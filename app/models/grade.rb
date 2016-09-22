@@ -4,7 +4,7 @@ class Grade < ActiveRecord::Base
 
   belongs_to :track
   belongs_to :user
-  has_many :activities
+  has_many :activities, :dependent => :delete_all
 
   def total_tasks
     self.track.tasks_count
@@ -16,7 +16,7 @@ class Grade < ActiveRecord::Base
 
   def actual_activity
     # TODO test it
-    return self.activities.last
+    return self.activities.where(completed: false).first
   end
 
   private

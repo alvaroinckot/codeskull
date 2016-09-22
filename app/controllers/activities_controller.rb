@@ -14,13 +14,17 @@ class ActivitiesController < ApplicationController
   	end
 
   	def update
-  	   #activity.compile()
-      render(:show, locals: {
-        task: @activity.task,
-        grade: @grade,
-        activity: @activity,
-        track: @activity.task.track
-      })
+  	  @activity = @activity.compile(activity_params)
+
+      if @activity == nil
+        redirect_to '/users/me/grades'
+      else
+        render(:show, locals: {
+          grade: @grade,
+          activity: @activity,
+          track: @activity.task.track
+        })
+      end
   	end
 
   	private

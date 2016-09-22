@@ -1,15 +1,15 @@
 <%= form_for([current_user, grade, activity]) do |f| %>
 	<div class="row">
 		<div class="col-sm-4">
-			<h3><%= task.title %></h3>
-			<p><%= task.content %></p>
+			<h3><%= activity.task.title %></h3>
+			<p><%= activity.task.content %></p>
 			<hr/>
 			<a href="#" class="btn btn-info">ANTERIOR</a>
 		</div>
 		<div class="col-sm-4">
-			<input type="hidden" id="snippet" value="<%= task.snippet %>"/>
+			<input type="hidden" id="snippet" value="<%= activity.task.snippet %>"/>
 			<%= f.text_area :source_code, 'data-lang' => track.language, rows: '20' %>
-			<!--<textarea style="width: 100%;" data-lang="<%= track.language %>" rows="20"><%= task.snippet %></textarea>-->
+			<!--<textarea style="width: 100%;" data-lang="<%= track.language %>" rows="20"><%= activity.task.snippet %></textarea>-->
 			<hr/>
 			<%= f.submit 'ENVIAR', :class => 'btn btn-default' %>
 		</div>

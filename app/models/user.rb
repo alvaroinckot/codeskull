@@ -19,7 +19,7 @@ class User < ActiveRecord::Base
   validates_attachment_content_type :avatar, :content_type => /\Aimage\/.*\Z/
 
   def coursing?(track)
-    self.grades.any? { |g| g.track_id == track }
+    self.grades.any? { |g| g.track_id == track.id }
   end
          
 end
