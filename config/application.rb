@@ -23,7 +23,7 @@ module Codeskull
             local_root: "#{Rails.root}/public"
         }, 
         fog_directory: "", 
-        fog_host: "http://localhost:8080"
+        fog_host: "http://localhost:8081"
     }
 
     config.generators do |generator|

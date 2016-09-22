@@ -8,13 +8,19 @@ class ActivitiesController < ApplicationController
   	  render(:show, locals: {
         task: @activity.task,
         grade: @grade,
-        acivity: @activity,
+        activity: @activity,
         track: @activity.task.track
       })
   	end
 
   	def update
   	   #activity.compile()
+      render(:show, locals: {
+        task: @activity.task,
+        grade: @grade,
+        activity: @activity,
+        track: @activity.task.track
+      })
   	end
 
   	private
@@ -29,7 +35,8 @@ class ActivitiesController < ApplicationController
   			authorize @grade
   		end
 
-  		def compile_params
-  		end
+      def activity_params
+        params.require(:activity).permit(:source_code)
+      end
 
 end
