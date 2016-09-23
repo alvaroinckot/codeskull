@@ -15,7 +15,7 @@ class TrackPolicy < ApplicationPolicy
   end
 
   def show?
-  	check_ownership
+  	true
   end
 
   private 
