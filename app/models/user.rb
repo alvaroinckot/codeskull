@@ -21,5 +21,9 @@ class User < ActiveRecord::Base
   def coursing?(track)
     self.grades.any? { |g| g.track_id == track.id }
   end
+
+  def first_name
+    self.fullname.split(" ")[0]
+  end
          
 end

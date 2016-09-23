@@ -6,34 +6,53 @@
 <div class="row">
 	<div class="col-lg-12">
 		<small>Total de tarefas: <%= track.tasks.count %></small>
+		<hr/>
+	</div>
+	<div class="col-lg-12">
 		<% Task.categories.each do |category| %>
-		<div class="task-list">
-			<h4>
-				<%= link_to new_track_task_path(track) do %>
-			   	  <i class="fa fa-plus"></i>
-			    <% end %>
-				<%= t(category[0]) %>:
-			</h4>
-			<% if track.tasks_of(category[0])&.any? %>
-				<ul>
-					<% track.tasks_of(category[0]).each do |task| %>
-						<li>
-							<%= task.title %>
-							<%= link_to track_task_path(track,task), method: :delete  do %>
-								<i class="fa fa-times" aria-hidden="true"></i>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				    <h3>
+						<%= t(category[0]) %>
+					</h3>
+				</div>
+				
+				<div class="panel-body">
+					<%= link_to new_track_task_path(track), class: 'btn btn-primary btn-xs' do %>
+				   	  ADICIONAR TAREFA <i class="fa fa-plus"></i>
+				    <% end %>
+				</div>
+
+				<% if track.tasks_of(category[0])&.any? %>
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Tarefa</th>
+								<th>Ações</th>
+							</tr>
+						</thead>
+						<tbody>
+							<% track.tasks_of(category[0]).each do |task| %>
+								<tr>
+									<td><h4><%= task.title %></h4></td>
+									<td>
+										<%= link_to track_task_path(track,task), method: :delete, class: 'btn btn-warning btn-xs'  do %>
+											<i class="fa fa-times" aria-hidden="true"></i>
+										<% end %>
+										<%= link_to edit_track_task_path(track,task), method: :get, class: 'btn btn-primary btn-xs'  do %>
+											<i class="fa fa-pencil" aria-hidden="true"></i>
+										<% end %>
+									</td>
+								</tr>
 							<% end %>
-							<%= link_to edit_track_task_path(track,task), method: :get  do %>
-								<i class="fa fa-pencil" aria-hidden="true"></i>
-							<% end %>
-						</li>
-					<% end %>
-				</ul>
-			<% else %>
-				<ul>
-					<li>Nenhuma tarefa encontrada nessa categoria!</li>
-				</ul>
-			<% end %>
-		</div>
+						</tbody>
+					</table>
+				<% else %>
+					<ul>
+						<li>Nenhuma tarefa encontrada nessa categoria!</li>
+					</ul>
+				<% end %>
+			</div>
 		<% end %>
 	</div>
 </div>

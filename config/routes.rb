@@ -15,7 +15,9 @@ Rails.application.routes.draw do
     end
 
     resources :tracks do
-    	resources :tasks
+    	resources :tasks do
+        resources :expectations
+      end
     end
     
     resources :contents, only: [ :destroy ]

@@ -12,7 +12,11 @@
   </head>
   <body>
     <div id="wrapper" class="wrapper-lp">
-      <%= render 'welcome/navbar' %>
+      <% if user_signed_in? %>
+        <%= render 'dashboard/navbar_clean' %>
+      <% else %>
+        <%= render 'welcome/navbar' %>
+      <% end %>
       <div id="page-wrapper">
         <div class="container-fluid">
     	   <%= yield %>

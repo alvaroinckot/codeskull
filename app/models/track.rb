@@ -8,6 +8,7 @@ class Track < ActiveRecord::Base
   has_and_belongs_to_many  :users
   has_many :contents
   has_many :tasks
+  has_many :grades
 
   def owner
   	# TODO create ownership rule
@@ -20,6 +21,14 @@ class Track < ActiveRecord::Base
 
   def tasks_count
     self.tasks.count
+  end
+
+  def users_finished
+    self.grades.select{ |g| g.completed? }.count
+  end
+
+  def users_started
+    self.grades.count
   end
 
   def get_next_task(task)
