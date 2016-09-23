@@ -46,25 +46,49 @@
 
 	<div class="col-md-6">
 		<% if track.contents.any? %>
-		<div>
-			<h3>Conteúdos</h3>
-			<div class="row">
-				<% track.contents.each do |content|%>
-					<a href="<%= content.file.url %>" data-toggle="lightbox" data-gallery="multiimages" data-title="<%= content.file.name %>" class="col-sm-3 thumb"><img src="<%= content.file.url(:thumb) %>" class="img-responsive"></a>
-                <% end %>
-            </div>
-            <hr/>
-        </div>
+			<div>
+				<h3>Conteúdos</h3>
+				<div class="row">
+					<% track.contents.each do |content|%>
+						<a href="<%= content.file.url %>" data-toggle="lightbox" data-gallery="multiimages" data-title="<%= content.file.name %>" class="col-sm-3 thumb"><img src="<%= content.file.url(:thumb) %>" class="img-responsive"></a>
+	                <% end %>
+	            </div>
+	            <hr/>
+	        </div>
         <% end %>
         <div class="row">
-        	<div class="col-md-12">
-         		<h3>Estatistícas:</h3>
-	        	<ul>
-	        		<li><%= track.users_started %> pessoas já iniciaram esse curso</li>
-	        		<li><%= track.users_finished %> pessoas concluiram o curso</li>
-	        	</ul>
-        	</div>
+			<div class="col-sm-6">
+             	<div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <i class="fa fa-edit fa-5x"></i>
+                            </div>
+                            <div class="col-xs-9 text-right">
+                                <div class="huge"><%= track.users_started %></div>
+                                <div>Total de inscritos</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-success">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-3">
+                                <i class="fa fa-check fa-5x"></i>
+                            </div>
+                            <div class="col-xs-9 text-right">
+                                <div class="huge"><%= track.users_finished %></div>
+                                <div>Total de concluintes</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
 	</div>
 
 </div>

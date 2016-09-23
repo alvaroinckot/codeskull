@@ -30,7 +30,19 @@
 	overflow: hidden;
 }
 
-CodeMirror {
-  border: 1px solid #eee;
-  height: auto;
+.CodeMirror {
+  font-family: monospace;
+  min-height: 480px;
+}
+
+.activity-box {
+  min-height: 450px; 
+}
+
+.console {
+  background-color: black;
+  width: 100%;
+  color: green;
+  font-family: consolas;
+  font-weight: bold;
 }

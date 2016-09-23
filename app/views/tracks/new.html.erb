@@ -1,7 +1,10 @@
 <div class="row">
 	<div class="col-lg-12">
-		<h2><%= t(:new_track) %></h2>
-		<hr/>
+		<h1 class="page-header"><%= t(:new_track) %></h1>
+	</div>
+</div>
+<div class="row">
+	<div class="col-lg-12">
 		<%= form_for(track ,:html => { :multipart => true }) do |f| %>
 			<div class="form-group">
 		    	<%= f.label :title %><br />
