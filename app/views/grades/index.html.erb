@@ -13,8 +13,10 @@
         </div>
         <div class="panel-body">
          <p><%= grade.total_completed_tasks %>/<%= grade.total_tasks %> concluido</p>
-         <%= link_to([current_user, grade, grade.actual_activity], class: "btn btn-primary") do %>
-          CONTINUAR
+         <% unless grade.completed? %>
+           <%= link_to([current_user, grade, grade.actual_activity], class: "btn btn-primary") do %>
+            CONTINUAR
+           <% end %>
          <% end %>
         </div>
       </div>

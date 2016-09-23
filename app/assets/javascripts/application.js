@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require bootstrap
 //= require codemirror
 //= require codemirror/modes/xml
 //= require codemirror/modes/htmlmixed
@@ -21,4 +22,9 @@
 //= require codemirror/modes/haml
 //= require_tree .
 
-$('.dropdown-toggle').dropdown()  
+var lightboxCallback =  function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+};
+
+$("body").delegate('*[data-toggle="lightbox"]', 'click', lightboxCallback); 

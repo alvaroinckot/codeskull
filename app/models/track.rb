@@ -22,4 +22,9 @@ class Track < ActiveRecord::Base
     self.tasks.count
   end
 
+  def get_next_task(task)
+    # TODO build order system
+    self.tasks.order(:id).select{ |t| t.id > task.id }.first
+  end
+
 end

@@ -4,8 +4,8 @@
 		<input type="hidden" name="id" value="">
 	</div>
 	<% contents&.each do |content| %>
-		<div class="col-sm-4" class="thumb-box">
-			<%= link_to image_tag(content.file.url), content_path(content), method: :delete %>
+		<div class="col-sm-4">
+			<%= link_to image_tag(content.file.url), content_path(content), method: :delete, class: 'thumbnail' %>
 		</div>
 	<% end %>
 </div>

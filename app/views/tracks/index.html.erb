@@ -1,12 +1,14 @@
 <% tracks&.each do |track| %>
 	<div class="col-md-3">
-		<div class="thumb-box">
-			<% if !track.contents.first.nil? %>
-				<img src="<%= track.contents.first.file.url %>" style="height:100%;" />
-			<% else %> 
-				<img src="/track_thumb.png" style="width: 100%;" />
-			<% end %>
-		</div>
+		<a href="<%= track_url(track) %>">
+			<div class="thumb-box">
+				<% if !track.contents.first.nil? %>
+					<img src="<%= track.contents.first.file.url %>" style="height:100%;" />
+				<% else %> 
+					<img src="/track_thumb.png" style="width: 100%;" />
+				<% end %>
+			</div>
+		</a>
 		<a href="<%= track_url(track) %>"><h5><%= track.title %></h5></a>
 	</div>
 <% end %>
