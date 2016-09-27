@@ -1,7 +1,25 @@
 <div class="row">
-	<div class="cold-sm-12">
-		<h1>Editar tarefas</h1>
-		<hr/>
+	<div class="col-lg-12">
+		<h1 class="page-header">Editar tarefas</h1>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
 		<%= render partial: 'form', locals: { task: task, track: track } %>
+	</div>
+</div>
+<hr/>
+<div>
+	<input type="hidden" id="task_id" value="<%= task.id %>" />
+	<input type="hidden" id="track_id" value="<%= track.id %>" />
+	<div class="row">
+		<div class="col-md-12">
+			<h3>Expectations <button id="expectation-form-new" class="btn btn-default">
+				<i class="fa fa-plus"></i>
+			</button></h3>
+		</div>
+		<div id="expectation-form" class="col-md-12">
+			
+		</div>
 	</div>
 </div>

@@ -42,7 +42,7 @@ ActiveRecord::Schema.define(version: 20160923210205) do
 
   create_table "expectations", force: :cascade do |t|
     t.string   "name"
-    t.string   "type"
+    t.string   "var_type"
     t.string   "value"
     t.integer  "task_id"
     t.string   "operator"

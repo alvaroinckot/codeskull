@@ -1,0 +1,7 @@
+<% if expectations.count <= 0 %>
+	<p>Nenhuma expectativa cadastrada </p>
+<% else %>
+	<% expectations.each do |expectation| %>
+		<%= render partial: 'form' , locals: { track: track, task: task, expectation: expectation } %>
+	<% end %>
+<% end %>

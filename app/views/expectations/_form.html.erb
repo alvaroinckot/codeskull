@@ -1,0 +1,40 @@
+<%= form_for([track,task,expectation]) do |f| %>
+	<div class="row">
+		<div class="col-md-3">
+			<div class="form-group">
+				<%= f.label :name %><br />
+	    		<%= f.text_field :name, autofocus: true, class: 'form-control' %>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+				<%= f.label :var_type %><br />
+	    		<%= f.text_field :var_type, class: 'form-control' %>
+			</div>
+		</div>
+		<div class="col-md-1">
+			<div class="form-group">
+				<%= f.label :operator %><br />
+	    		<%= f.text_field :operator, class: 'form-control' %>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="form-group">
+				<%= f.label :value %><br />
+	    		<%= f.text_field :value, class: 'form-control' %>
+			</div>
+		</div>
+		<div class="col-md-1">
+			<div class="form-group">
+				<label> </label>
+				<button type="submit" class="form-control btn btn-primary"><i class="fa fa-edit"></i></button>
+			</div>
+		</div>
+		<div class="col-md-1">
+			<div class="form-group">
+				<label> </label>
+				<button type="submit" class="form-control btn btn-warning"><i class="fa fa-check"></i></button>
+			</div>
+		</div>
+	</div>
+<% end %>
