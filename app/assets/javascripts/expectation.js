@@ -27,6 +27,22 @@ var expectation = function(){
 		});
 	});
 
+	$(document).on("submit" , ".edit_expectation, .new_expectation", function(e){
+		e.preventDefault();
+
+		var self = $(this);
+
+		$.ajax({
+            url: self.attr('action'),
+            method: self.attr('method'),
+            data: self.serialize(),
+            done: function(response){
+            	self.html(response)
+            }
+        });
+	});
+
+
 
 
 };
