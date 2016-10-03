@@ -14,6 +14,7 @@ class ActivitiesController < ApplicationController
   	end
 
   	def update
+      @activity.update(activity_params)
   	  @activity = @activity.compile(activity_params)
 
       if @activity == nil

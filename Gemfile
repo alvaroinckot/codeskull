@@ -34,6 +34,11 @@ gem 'pundit'
 
 gem 'codemirror-rails'
 
+gem 'net-ssh'
+
+
+gem 'mruby_sandbox' 
+
 group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'

@@ -16,7 +16,9 @@ RUN apt-get install -y nodejs
 
 
 # for a linux container enviroment manager
-RUN apt-get install -y lxc
+RUN curl -sSL https://get.docker.com/ | sh
+RUN systemctl enable docker
+
 
 ENV APP_HOME /usr/src/app
 RUN mkdir $APP_HOME
