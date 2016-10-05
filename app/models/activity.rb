@@ -21,15 +21,11 @@ class Activity < ActiveRecord::Base
     private
 
       def pre_process_source
-        self.source_code
+        self.source_code # => bind with expectations.to_code
       end
 
       def check_var_expectations
-        true
-      end
-
-      def check_output_expectations
-        true
+        true # self.expectations.check(output)
       end
 
       def environment
