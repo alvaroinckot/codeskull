@@ -16,8 +16,11 @@ var expectation = function(){
 
 
 	$("#expectation-form-new").on("click", function(e){
+
 		var task_id = $("#task_id").val() || 1;
 		var track_id = $("#track_id").val() || 1;
+
+		$(this).prop("disabled", true);
 
 		$.ajax({
 		  url: "/tracks/" + track_id + "/tasks/" + task_id + "/expectations/new",
@@ -25,6 +28,7 @@ var expectation = function(){
 		}).done(function(response) {
 			$("#expectation-form").append(response)
 		});
+
 	});
 
 	$(document).on("submit" , ".edit_expectation, .new_expectation", function(e){

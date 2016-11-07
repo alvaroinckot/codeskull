@@ -1,0 +1,23 @@
+<%= form_for([sandbox]) do |f| %>
+	<%= f.hidden_field :id %>
+	<div class="row">
+		<div class="col-sm-8">
+			<%= render partial: "code/editor", locals: { form: f, snippet: sandbox.source_code, language: sandbox.id } %>
+		</div>
+		<div class="col-sm-4">
+			<div class="activity-box">
+				<%= render partial: "code/console", locals: { form: f, rows: 22 } %>
+			</div>
+		</div>
+	</div>
+	<hr/>
+	<div class="row">
+		<div class="col-sm-4">
+		</div>
+		<div class="col-sm-4">
+			<%= f.submit 'ENVIAR', :class => 'btn btn-primary', :style => 'width: 100%;' %>
+		</div>
+		<div class="col-sm-4">
+		</div>
+	</div>
+<% end %>

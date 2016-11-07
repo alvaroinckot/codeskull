@@ -3,41 +3,41 @@ class Activity < ActiveRecord::Base
   belongs_to :task
   belongs_to :grade
 
+  after_initialize :set_console
+
   attr_accessor :console
 
+  def complete!
+    self.completed = true
+    self.save
+    self.grade.build_next_activity(self)
+  end
+
   def compile(params)
-
-    response = environment.compile(pre_process_source) # todo check ouput expecs
-    
-    self.console = response["output"]
-      .select { |output| output.include? "{" } # todo refactor
-      .map do |c| 
-        JSON.parse(c) 
-      end
-
-    if console.each.all? { |hash| hash[hash.keys.first] == 'true' }
-      self.completed = true
-      self.save
-      self.grade.build_next_activity(self)
+    processed_source = environment.pre_process(self.task.expectations, self.source_code)
+    response = environment.compile(processed_source, "App", ["main"])
+    update_console(response)
+    if environment.validate(self.task.expectations, self.source_code, response)
+      self.complete!
       return self.grade.actual_activity
     end
 
    return self;
-
   end
 
     private
 
-      def pre_process_source
-        self.source_code + self.task.expectations.map { |exp| exp.to_code }.inject { |pre, post| pre + post }
+      def update_console(response)
+        self.console += "> "  + response["output"].join("\r\n> ") if response["output"].length > 0
+        self.console += "> " + response["exception"] + "\r\n" unless response["exception"].empty?
       end
 
-      def check_var_expectations
-        true # self.expectations.check(output)
+      def set_console
+        self.console = "" if self.console.nil?
       end
 
       def environment
-        @environment = EnvironmentManager.get(task.track.language)
+        EnvironmentManager.get(task.track.language)
       end
 
 end

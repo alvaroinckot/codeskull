@@ -1,0 +1,4 @@
+<% unless snippet %>
+	<input type="hidden" id="snippet" value="<%= snippet %>" />
+<% end %>
+<%= form.text_area :source_code, rows: '20', data: { 'lang' => language } %>

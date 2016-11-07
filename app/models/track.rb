@@ -3,7 +3,7 @@ class Track < ActiveRecord::Base
   include Elasticsearch::Model::Callbacks
 
   enum idiom: [ :pt_br, :eng ]
-  enum language: [ :ruby, :javascript ]
+  enum language: [ :ruby, :java ]
 
   has_and_belongs_to_many  :users
   has_many :contents

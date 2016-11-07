@@ -4,8 +4,8 @@ class EnvironmentManager
 		case environment.to_sym
 		when :ruby
 			return EnvironmentManager::Ruby.new
-		when :javascript
-			# return javascript environment
+		when :java
+			return EnvironmentManager::Java.new
 		else
 			throw 'Language not supported!'
 		end

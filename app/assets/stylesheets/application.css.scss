@@ -1,4 +1,7 @@
-//= require codemirror
+/*
+*= require codemirror
+*= require codemirror/themes/night
+*/
 
 @import "font-awesome";
 @import "bootstrap";
@@ -42,7 +45,7 @@
 .console {
   background-color: black;
   width: 100%;
-  color: green;
+  color: #97f297;
   font-family: consolas;
   font-weight: bold;
 }
