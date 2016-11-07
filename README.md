@@ -7,3 +7,11 @@ Interactive development e-learn platform
 
 ## To run :
 > docker-compose up
+
+## TODO
+ - Task navigation
+ - PDF track extraction
+ - User collaboration screen
+ - Analytics
+ - Create seed tracks
+
