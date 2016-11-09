@@ -4,25 +4,30 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-lg-12">
-  <% if grades.any? %>
-    <% grades.each do |grade| %>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <%= grade.track.title %>
+    <% if grades.any? %>
+      <% grades.each do |grade| %>
+        <% grade_class = if grade.completed? then  "success" else "primary" end %>
+        <div class="col-lg-6">
+          <div class="panel panel-<%= grade_class %>">
+            <div class="panel-heading">
+              <%= grade.track.title %>
+            </div>
+            <div class="panel-body">
+             <p><%= grade.total_completed_tasks %>/<%= grade.total_tasks %> concluido</p>
+             <% if grade.completed? %>
+                <%= link_to([current_user, grade, grade.activities.first], class: "btn btn-success") do %>
+                REVISAR
+               <% end %>
+             <% else %>
+               <%= link_to([current_user, grade, grade.actual_activity], class: "btn btn-primary") do %>
+                CONTINUAR
+               <% end %>
+             <% end %>
+            </div>
+          </div>
         </div>
-        <div class="panel-body">
-         <p><%= grade.total_completed_tasks %>/<%= grade.total_tasks %> concluido</p>
-         <% unless grade.completed? %>
-           <%= link_to([current_user, grade, grade.actual_activity], class: "btn btn-primary") do %>
-            CONTINUAR
-           <% end %>
-         <% end %>
-        </div>
-      </div>
+      <% end %>
+    <% else %>
+      <h3>Você ainda não iniciou nenhum curso!</h3>
     <% end %>
-  <% else %>
-    <h3>Você ainda não iniciou nenhum curso!</h3>
-  <% end %>
-  </div>
 </div>
