@@ -22,6 +22,8 @@ Rails.application.routes.draw do
     
     resources :contents, only: [ :destroy ]
 
+    resources :sandbox, only: [ :show, :update ]
+    
   end
 
 end

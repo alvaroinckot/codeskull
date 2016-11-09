@@ -3,14 +3,18 @@ class ActivitiesController < ApplicationController
   	before_action :authenticate_user!
   	before_action :set_grade
   	before_action :set_activity
+    before_action :set_others_ids
 
   	def show
   	  render(:show, locals: {
         task: @activity.task,
         grade: @grade,
         activity: @activity,
-        track: @activity.task.track
+        track: @activity.task.track,
+        next_id: @next_id,
+        previous_id: @previous_id
       })
+
   	end
 
   	def update
@@ -23,7 +27,9 @@ class ActivitiesController < ApplicationController
         render(:show, locals: {
           grade: @grade,
           activity: @activity,
-          track: @activity.task.track
+          track: @activity.task.track,
+          next_id: @next_id,
+          previous_id: @previous_id
         })
       end
   	end
@@ -39,6 +45,11 @@ class ActivitiesController < ApplicationController
   			@activity = @grade.activities.find(params[:id])
   			authorize @grade
   		end
+
+      def set_others_ids
+        @next_id = @grade.activities.order(:id).where("id > ?", @activity.id).pluck(:id).first
+        @previous_id = @grade.activities.order(id: :desc).where("id < ?", @activity.id).pluck(:id).first
+      end
 
       def activity_params
         params.require(:activity).permit(:source_code)

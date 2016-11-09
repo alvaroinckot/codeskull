@@ -28,7 +28,9 @@ class Activity < ActiveRecord::Base
     private
 
       def update_console(response)
-        self.console += "> "  + response["output"].join("\r\n> ") if response["output"].length > 0
+        self.console += "> "  + response["output"]
+          .reject { |output| output.include? "{" }
+          .join("\r\n> ") if response["output"].length > 0
         self.console += "> " + response["exception"] + "\r\n" unless response["exception"].empty?
       end
 

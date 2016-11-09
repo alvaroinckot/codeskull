@@ -9,7 +9,6 @@ Interactive development e-learn platform
 > docker-compose up
 
 ## TODO
- - Task navigation
  - PDF track extraction
  - User collaboration screen
  - Analytics

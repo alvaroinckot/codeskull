@@ -25,13 +25,21 @@
 	<hr/>
 	<div class="row">
 		<div class="col-sm-4">
-			<a href="#" class="btn btn-info" style="float: left;" disabled>ANTERIOR</a>
+			<% if previous_id != nil %>
+				<a href="<%= "/users/#{current_user.id}/grades/#{grade.id}/activities/#{previous_id}" %>" class="btn btn-primary" style="float: left;">ANTERIOR</a>
+			<% else %>
+				<a href="#" class="btn btn-info" style="float: left;" disabled>ANTERIOR</a>
+			<% end %>
 		</div>
 		<div class="col-sm-4">
 			<%= f.submit 'ENVIAR', :class => 'btn btn-primary', :style => 'width: 100%;' %>
 		</div>
 		<div class="col-sm-4">
-			<a href="#" class="btn btn-info" style="float: right;" disabled>PRÓXIMO</a>
+			<% if next_id != nil %>
+				<a href="<%= "/users/#{current_user.id}/grades/#{grade.id}/activities/#{next_id}" %>" class="btn btn-primary" style="float: right;">PRÓXIMO</a>
+			<% else %>
+				<a href="#" class="btn btn-info" style="float: right;" disabled>PRÓXIMO</a>
+			<% end %>
 		</div>
 	</div>
 <% end %>

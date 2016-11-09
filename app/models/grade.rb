@@ -28,7 +28,6 @@ class Grade < ActiveRecord::Base
   end
 
   def actual_activity
-    # TODO test it
     return self.activities.where(completed: false).first
   end
 
