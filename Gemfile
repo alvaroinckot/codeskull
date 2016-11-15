@@ -34,10 +34,8 @@ gem 'pundit'
 
 gem 'codemirror-rails'
 
-gem 'net-ssh'
-
-
-gem 'mruby_sandbox' 
+gem 'pdfkit' 
+gem 'wkhtmltopdf-binary'
 
 group :development, :test do
   gem 'byebug'
