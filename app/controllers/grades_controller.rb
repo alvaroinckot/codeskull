@@ -22,8 +22,6 @@ class GradesController < ApplicationController
     end
   end
 
-
-
   private
     
     def set_grade

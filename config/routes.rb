@@ -14,6 +14,7 @@ Rails.application.routes.draw do
       end
     end
 
+    get '/tracks/:id/export', to: 'tracks#export'
     resources :tracks do
     	resources :tasks do
         resources :expectations

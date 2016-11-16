@@ -18,6 +18,10 @@ class TrackPolicy < ApplicationPolicy
   	true
   end
 
+  def export?
+    true
+  end
+
   private 
 
     def check_ownership

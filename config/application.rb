@@ -1,6 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
+require 'pdfkit'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -32,6 +33,17 @@ module Codeskull
     end
 
     Elasticsearch::Model.client = Elasticsearch::Client.new host: 'elasticsearch'
-    
+
+    config.middleware.use PDFKit::Middleware, {}, :only => %r[\/tracks\/[0-9]+\/export]
+
+    PDFKit.configure do |config|
+        config.wkhtmltopdf = `which wkhtmltopdf`.strip
+        config.default_options = {
+            :encoding=> 'UTF-8',
+            :page_width => '210',
+            :page_height => '297'
+        }
+    end
+
   end
 end

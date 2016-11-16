@@ -1,7 +1,7 @@
 class TracksController < ApplicationController
 
   before_action :authenticate_user!
-  before_action :set_track, only: [:show, :edit, :update]
+  before_action :set_track, only: [:show, :edit, :update, :export]
 	
   layout 'dashboard'
 
@@ -30,13 +30,13 @@ class TracksController < ApplicationController
 
   def show
     render(:show, locals: {
-      track: @track,
+      track: @track
     })
   end
 
   def edit
     render(:edit, locals: {
-      track: @track,
+      track: @track
     })
   end
 
@@ -49,23 +49,29 @@ class TracksController < ApplicationController
     end
   end
 
+  def export
+    render(:export, layout: false, locals: {
+      track: @track
+    })
+  end
+
   private
 
-  def set_track
-  	@track = Track.includes(:contents).find(params[:id])
-    authorize @track
-  end
+    def set_track
+    	@track = Track.includes(:contents).find(params[:id])
+      authorize @track
+    end
 
-  def track_params
-  	params.require(:track).permit(:title, :description, :language, :idiom)
-  end
+    def track_params
+    	params.require(:track).permit(:title, :description, :language, :idiom)
+    end
 
-  def search_params
-    params.permit(:q)
-  end
+    def search_params
+      params.permit(:q)
+    end
 
-  def query
-    "*#{search_params[:q]}*"
-  end
+    def query
+      "*#{search_params[:q]}*"
+    end
 	
 end
